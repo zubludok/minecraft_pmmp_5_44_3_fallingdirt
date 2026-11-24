@@ -44,7 +44,8 @@
 		"pluginfd:res_ferrum_i":		{"textures": "textures/blocks/ferrum_i"},
 		"pluginfd:res_ferrum_n":		{"textures": "textures/blocks/ferrum_n"},
 		
-		"pluginfd:tree_oak":		{"textures": "textures/blocks/oak_log"}
+		"pluginfd:tree_oak":		{"textures": "textures/blocks/oak_log"},
+		"pluginfd:tree_oak_str":	{"textures": "textures/blocks/oak_log_str"}
 	
 	}
 }

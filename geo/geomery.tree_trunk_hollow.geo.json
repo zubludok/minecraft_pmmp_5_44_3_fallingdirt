@@ -1,0 +1,81 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "geomery.tree_trunk_hollow",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geomery.tree_trunk_hollow_north",
+					"parent": "geomery.tree_trunk_hollow",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,0,0],"rotation":[0,-90,0],"uv":{"north":{"uv":[2,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[2,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[12,16],"uv_size":[-12,-16]},"down":{"uv":[12,16],"uv_size":[-12,-16]}}},
+						{"origin":[-6,0,-8],"size":[12,16,16],"uv":{"north":{"uv":[20,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[1.5,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[24,16],"uv_size":[-12,-16]},"down":{"uv":[24,16],"uv_size":[-12,-16]}}}
+					]
+				},
+				{
+					"name": "geomery.tree_trunk_hollow_east",
+					"parent": "geomery.tree_trunk_hollow",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"uv":{"north":{"uv":[2.5,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[2.5,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[12,16],"uv_size":[-12,-16]},"down":{"uv":[12,16],"uv_size":[-12,-16]}}},
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,0,0],"rotation":[0,-90,0],"uv":{"north":{"uv":[3,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[19,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[24,16],"uv_size":[-12,-16]},"down":{"uv":[24,16],"uv_size":[-12,-16]}}}
+					]
+				},
+				{
+					"name": "geomery.tree_trunk_hollow_south",
+					"parent": "geomery.tree_trunk_hollow",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"uv":{"north":{"uv":[2.5,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[19,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[12,16],"uv_size":[-12,-16]},"down":{"uv":[12,16],"uv_size":[-12,-16]}}},
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,4,0],"rotation":[0,-90,0],"uv":{"north":{"uv":[2.5,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[2.5,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[24,16],"uv_size":[-12,-16]},"down":{"uv":[24,16],"uv_size":[-12,-16]}}}
+					]
+				},
+				{
+					"name": "geomery.tree_trunk_hollow_west",
+					"parent": "geomery.tree_trunk_hollow",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"uv":{"north":{"uv":[2.5,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[2.5,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[12,16],"uv_size":[-12,-16]},"down":{"uv":[12,16],"uv_size":[-12,-16]}}},
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,0,0],"rotation":[0,-90,0],"uv":{"north":{"uv":[19,16],"uv_size":[12,16]},"east":{"uv":[0,16],"uv_size":[16,16]},"south":{"uv":[2,16],"uv_size":[12,16]},"west":{"uv":[0,16],"uv_size":[16,16]},"up":{"uv":[12,16],"uv_size":[-12,-16]},"down":{"uv":[12,16],"uv_size":[-12,-16]}}}
+					]
+				}
+			]
+		}
+	]
+}
