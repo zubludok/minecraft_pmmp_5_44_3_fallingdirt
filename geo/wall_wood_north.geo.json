@@ -1,0 +1,54 @@
+{
+	"format_version": "1.21.110",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "board1",
+					"pivot": [
+						7,
+						8,
+						-7
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,8,2],"pivot":[0,4,-6],"rotation":[-5,-2.5,2.5],"uv":{"north":{"uv":[2,2],"uv_size":[16,8]},"east":{"uv":[0,2],"uv_size":[2,8]},"south":{"uv":[20,2],"uv_size":[16,8]},"west":{"uv":[18,2],"uv_size":[2,8]},"up":{"uv":[2,0],"uv_size":[16,2]},"down":{"uv":[18,2],"uv_size":[16,-2]}}}
+					]
+				},
+				{
+					"name": "board2",
+					"pivot": [
+						7,
+						0,
+						-7
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[16,8,2],"pivot":[0,12,-6],"rotation":[2.5,2.5,-2.5],"uv":{"north":{"uv":[2,2],"uv_size":[16,8]},"east":{"uv":[0,2],"uv_size":[2,8]},"south":{"uv":[20,2],"uv_size":[16,8]},"west":{"uv":[18,2],"uv_size":[2,8]},"up":{"uv":[2,0],"uv_size":[16,2]},"down":{"uv":[18,2],"uv_size":[16,-2]}}}
+					]
+				},
+				{
+					"name": "plaster",
+					"pivot": [
+						7,
+						0,
+						-7
+					],
+					"cubes": [
+						{"origin":[-8,0,-6],"size":[16,16,3],"uv":{"north":{"uv":[3,3],"uv_size":[16,16]},"east":{"uv":[0,3],"uv_size":[3,16]},"south":{"uv":[22,3],"uv_size":[16,16]},"west":{"uv":[19,3],"uv_size":[3,16]},"up":{"uv":[3,0],"uv_size":[16,3]},"down":{"uv":[19,3],"uv_size":[16,-3]}}}
+					]
+				}
+			]
+		}
+	]
+}

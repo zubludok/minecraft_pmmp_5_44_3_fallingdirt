@@ -1,0 +1,29 @@
+{
+    "format_version":  2,
+    "header":  {
+                   "name":  "FallingDirt",
+                   "description":  "Самопальные предметы и блоки",
+                   "uuid":  "8b783e78-a764-4a6c-a98f-92110c5b7c25",
+                   "version":  [
+                                   1,
+                                   0,
+                                   14
+                               ],
+                   "min_engine_version":  [
+                                              1,
+                                              20,
+                                              0
+                                          ]
+               },
+    "modules":  [
+                    {
+                        "type":  "resources",
+                        "uuid":  "313a7602-686e-4304-af63-9e4e227b6fc6",
+                        "version":  [
+                                        1,
+                                        0,
+                                        14
+                                    ]
+                    }
+                ]
+}

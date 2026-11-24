@@ -1,0 +1,128 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:geometry": [{
+		"description": {"identifier": "geometry.voxel.cubev","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"bones": [{
+			"name": "vfta","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,0],"uv_size":[8,8]},"south":{"uv":[8,0],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,0],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[0,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,0],"uv_size":[8,8]},"west":{"uv":[8,0],"uv_size":[8,8]},"up":{"uv":[0,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfba","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,8],"uv_size":[8,8]},"south":{"uv":[8,8],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,8],"uv_size":[8,8]},"west":{"uv":[8,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,8],"uv_size":[8,-8]}}}
+			]
+		}]
+	},{
+		"description": {"identifier": "geometry.voxel_resource.small","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"bones": [{
+			"name": "vfta","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,0],"uv_size":[8,8]},"south":{"uv":[8,0],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,0],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[0,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,0],"uv_size":[8,8]},"west":{"uv":[8,0],"uv_size":[8,8]},"up":{"uv":[0,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfba","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,8],"uv_size":[8,8]},"south":{"uv":[8,8],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,8],"uv_size":[8,8]},"west":{"uv":[8,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "res","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-4,4,-4],"size":[8,8,8],"pivot":[0,8,0],"rotation":[-7.5,-10,5],"uv":{"north":{"uv":[4,6],"uv_size":[16,16],"material_instance": "res"},"east":{"uv":[4,6],"uv_size":[16,16],"material_instance": "res"},"south":{"uv":[0,6],"uv_size":[16,16],"material_instance": "res"},"west":{"uv":[0,6],"uv_size":[16,16],"material_instance": "res"},"up":{"uv":[16,16],"uv_size":[-16,-16],"material_instance": "res"},"down":{"uv":[16,20],"uv_size":[-16,-16],"material_instance": "res"}}},
+				{"origin":[-2,4,-4],"size":[4,10,4],"pivot":[0,9,-2],"rotation":[5,-10,15],"uv":{"north":{"uv":[12,2],"uv_size":[8,20],"material_instance": "res"},"east":{"uv":[12,2],"uv_size":[8,20],"material_instance": "res"},"south":{"uv":[0,2],"uv_size":[8,20],"material_instance": "res"},"west":{"uv":[0,2],"uv_size":[8,20],"material_instance": "res"},"up":{"uv":[8,8],"uv_size":[-8,-8],"material_instance": "res"},"down":{"uv":[8,20],"uv_size":[-8,-8],"material_instance": "res"}}}
+			]
+		}]
+	},{
+		"description": {"identifier": "geometry.voxel_resource.medium","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"bones": [{
+			"name": "vfta","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,0],"uv_size":[8,8]},"south":{"uv":[8,0],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,0],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[0,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,0],"uv_size":[8,8]},"west":{"uv":[8,0],"uv_size":[8,8]},"up":{"uv":[0,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfba","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,8],"uv_size":[8,8]},"south":{"uv":[8,8],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,8],"uv_size":[8,8]},"west":{"uv":[8,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "res","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-5,3,-5],"size":[10,10,10],"pivot":[0,8,0],"rotation":[-12.5,-10,0],"uv":{"north":{"uv":[0,0],"uv_size":[20,20],"material_instance": "res"},"east":{"uv":[0,0],"uv_size":[20,20],"material_instance": "res"},"south":{"uv":[0,0],"uv_size":[20,20],"material_instance": "res"},"west":{"uv":[0,0],"uv_size":[20,20],"material_instance": "res"},"up":{"uv":[20,20],"uv_size":[-20,-20],"material_instance": "res"},"down":{"uv":[20,20],"uv_size":[-20,-20],"material_instance": "res"}}},
+				{"origin":[-3,2,-7],"size":[8,6,7],"pivot":[0,7,-2],"rotation":[-5,-12.5,15],"uv":{"north":{"uv":[4,8],"uv_size":[16,12],"material_instance": "res"},"east":{"uv":[6,8],"uv_size":[14,12],"material_instance": "res"},"south":{"uv":[0,8],"uv_size":[16,12],"material_instance": "res"},"west":{"uv":[0,8],"uv_size":[14,12],"material_instance": "res"},"up":{"uv":[16,14],"uv_size":[-16,-14],"material_instance": "res"},"down":{"uv":[16,20],"uv_size":[-16,-14],"material_instance": "res"}}}
+			]
+		}]
+	},{
+		"description": {"identifier": "geometry.voxel_resource.large","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"bones": [{
+			"name": "vfta","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,0],"uv_size":[8,8]},"south":{"uv":[8,0],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,0],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[0,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vftd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,0],"uv_size":[8,8]},"west":{"uv":[8,0],"uv_size":[8,8]},"up":{"uv":[0,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfba","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[0,8],"uv_size":[8,8]},"south":{"uv":[8,8],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[8,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,16],"uv_size":[8,-8]}}}
+			]},{
+			"name": "vfbd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,8],"uv_size":[8,8]},"east":{"uv":[8,8],"uv_size":[8,8]},"south":{"uv":[0,8],"uv_size":[8,8]},"west":{"uv":[8,8],"uv_size":[8,8]},"up":{"uv":[8,8],"uv_size":[8,8]},"down":{"uv":[0,8],"uv_size":[8,-8]}}}
+			]},{
+			"name": "res","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-6,-1,-7],"size":[12,14,16],"pivot":[3,6,0],"rotation":[-17.5,-2.5,27.5],"uv":{"north":{"uv":[6,2],"uv_size":[24,28],"material_instance": "res"},"east":{"uv":[0,2],"uv_size":[32,28],"material_instance": "res"},"south":{"uv":[0,2],"uv_size":[24,28],"material_instance": "res"},"west":{"uv":[0,2],"uv_size":[32,28],"material_instance": "res"},"up":{"uv":[24,32],"uv_size":[-24,-32],"material_instance": "res"},"down":{"uv":[24,32],"uv_size":[-24,-32],"material_instance": "res"}}},
+				{"origin":[-7,1,-7],"size":[7,15,14],"pivot":[-3,8,0],"rotation":[2.5,-7.5,-12.5],"uv":{"north":{"uv":[14,2],"uv_size":[14,30],"material_instance": "res"},"east":{"uv":[4,2],"uv_size":[28,30],"material_instance": "res"},"south":{"uv":[0,2],"uv_size":[14,30],"material_instance": "res"},"west":{"uv":[0,2],"uv_size":[28,30],"material_instance": "res"},"up":{"uv":[14,28],"uv_size":[-14,-28],"material_instance": "res"},"down":{"uv":[14,32],"uv_size":[-14,-28],"material_instance": "res"}}}
+			]
+		}]
+	}]
+}

@@ -1,0 +1,9 @@
+{
+	"format_version": [1, 1, 0],
+	"pluginfd:trash_block": {"textures": "trash_block"},
+	
+	"pluginfd:wwb_wall_lasnra":		{"textures": "pluginfd:wwboakwhite"},
+	"pluginfd:wwb_wall_lbsnra":		{"textures": "pluginfd:wwboakwhite"},
+	
+	"pluginfd:test_wall_wood_n":	{"textures": "pluginfd:wall_wood_wood"}
+}

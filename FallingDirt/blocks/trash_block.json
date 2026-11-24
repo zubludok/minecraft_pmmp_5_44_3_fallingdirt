@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "pluginfd:trash_block"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "trash_block",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
+}

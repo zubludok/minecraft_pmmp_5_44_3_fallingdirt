@@ -1,0 +1,50 @@
+{
+	"texture_name": "atlas.terrain",
+	"resource_pack_name": "FallingDirt",
+	"texture_data": {
+        "trash_block": 			{"textures": "textures/blocks/trash_block"},
+		"pluginfd:grass":		{"textures": "textures/blocks/grass_top"},
+		"pluginfd:sand_white":	{"textures": "textures/blocks/sand_white"},
+		"pluginfd:sand_beige":	{"textures": "textures/blocks/sand"},
+		"pluginfd:sand_orange": {"textures": "textures/blocks/red_sand"},
+		"pluginfd:gravel": 		{"textures": "textures/blocks/gravel"},
+		
+		"pluginfd:granit_a": 	{"textures": "textures/blocks/granit_a"},
+		"pluginfd:granit_b": 	{"textures": "textures/blocks/granit_b"},
+		"pluginfd:granit_c": 	{"textures": "textures/blocks/granit_c"},
+		"pluginfd:granit_d": 	{"textures": "textures/blocks/granit_d"},
+		"pluginfd:granit_e": 	{"textures": "textures/blocks/granit_e"},
+		"pluginfd:granit_f": 	{"textures": "textures/blocks/granit_f"},
+		"pluginfd:granit_g": 	{"textures": "textures/blocks/granit_g"},
+		"pluginfd:granit_h": 	{"textures": "textures/blocks/granit_h"},
+		"pluginfd:granit_i": 	{"textures": "textures/blocks/granit_i"},
+		"pluginfd:granit_j": 	{"textures": "textures/blocks/granit_j"},
+		"pluginfd:granit_k": 	{"textures": "textures/blocks/granit_k"},
+		
+		"pluginfd:calcite_a": 	{"textures": "textures/blocks/calcite_a"},
+		"pluginfd:calcite_b": 	{"textures": "textures/blocks/calcite_b"},
+		"pluginfd:calcite_c": 	{"textures": "textures/blocks/calcite_c"},
+		"pluginfd:calcite_d": 	{"textures": "textures/blocks/calcite_d"},
+		"pluginfd:calcite_e": 	{"textures": "textures/blocks/calcite_e"},
+		"pluginfd:calcite_f": 	{"textures": "textures/blocks/calcite_f"},
+		
+		"pluginfd:basalt_a": 	{"textures": "textures/blocks/basalt_a"},
+		"pluginfd:basalt_b": 	{"textures": "textures/blocks/basalt_b"},
+		"pluginfd:basalt_c": 	{"textures": "textures/blocks/basalt_c"},
+		
+		"pluginfd:tuff_a": 		{"textures": "textures/blocks/tuff_a"},
+		"pluginfd:tuff_b": 		{"textures": "textures/blocks/tuff_b"},
+		"pluginfd:tuff_c": 		{"textures": "textures/blocks/tuff_c"},
+		"pluginfd:tuff_d": 		{"textures": "textures/blocks/tuff_d"},
+		"pluginfd:tuff_e": 		{"textures": "textures/blocks/tuff_e"},
+		
+		"pluginfd:dirt":		{"textures": "textures/blocks/dirt"},
+		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
+
+		"pluginfd:res_ferrum_i":		{"textures": "textures/blocks/ferrum_i"},
+		"pluginfd:res_ferrum_n":		{"textures": "textures/blocks/ferrum_n"},
+		
+		"pluginfd:tree_oak":		{"textures": "textures/blocks/oak_log"}
+	
+	}
+}
