@@ -1,0 +1,2121 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 40,
+				"texture_height": 40,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.puddle",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vfpa",
+					"parent": "geometry.puddle",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,1,16],"uv":{"north":{"uv":[0,2.5],"uv_size":[40,2.5]},"east":{"uv":[0,2.5],"uv_size":[40,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,2.5],"uv_size":[40,2.5]},"up":{"uv":[40,40],"uv_size":[-40,-40]},"down":{"uv":[40,40],"uv_size":[-40,-40]}}}
+					]
+				},
+				{
+					"name": "geometry.vfpb",
+					"parent": "geometry.puddle",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vfpc",
+					"parent": "geometry.puddle",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_full",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vft",
+					"parent": "geometry.voxel_full",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vfta",
+					"parent": "geometry.vft",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[20,0],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,0],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vftb",
+					"parent": "geometry.vft",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[0,0],"uv_size":[20,20]},"south":{"uv":[20,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vftc",
+					"parent": "geometry.vft",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[20,0],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[0,0],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vftd",
+					"parent": "geometry.vft",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[20,0],"uv_size":[20,20]},"up":{"uv":[0,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vfb",
+					"parent": "geometry.voxel_full",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vfba",
+					"parent": "geometry.vfb",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,40],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vfbb",
+					"parent": "geometry.vfb",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[0,20],"uv_size":[20,20]},"south":{"uv":[20,20],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vfbc",
+					"parent": "geometry.vfb",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[20,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,20],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[0,40],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vfbd",
+					"parent": "geometry.vfb",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[0,20],"uv_size":[20,20]},"west":{"uv":[20,20],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[0,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_resources",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_top",
+					"parent": "geometry.voxel_resources",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vrta",
+					"parent": "geometry.voxel_resources_top",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[20,0],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,0],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrtb",
+					"parent": "geometry.voxel_resources_top",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[0,0],"uv_size":[20,20]},"south":{"uv":[20,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrtc",
+					"parent": "geometry.voxel_resources_top",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[20,0],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[0,0],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrtd",
+					"parent": "geometry.voxel_resources_top",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[20,0],"uv_size":[20,20]},"up":{"uv":[0,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_bottom",
+					"parent": "geometry.voxel_resources",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.vrba",
+					"parent": "geometry.voxel_resources_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,40],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrbb",
+					"parent": "geometry.voxel_resources_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[0,20],"uv_size":[20,20]},"south":{"uv":[20,20],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[20,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrbc",
+					"parent": "geometry.voxel_resources_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,-8],"size":[8,8,8],"uv":{"north":{"uv":[20,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[10,10],"uv_size":[20,20]},"west":{"uv":[0,20],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[0,40],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.vrbd",
+					"parent": "geometry.voxel_resources_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,0],"size":[8,8,8],"uv":{"north":{"uv":[0,20],"uv_size":[20,20]},"east":{"uv":[20,20],"uv_size":[20,20]},"south":{"uv":[0,20],"uv_size":[20,20]},"west":{"uv":[20,20],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[20,20]},"down":{"uv":[0,20],"uv_size":[20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_nugget",
+					"parent": "geometry.voxel_resources",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_small",
+					"parent": "geometry.voxel_resources_nugget",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-1,4,-3],"size":[5,5,5],"pivot":[0,8,1],"rotation":[-7.5,-10,5],"uv":{"north":{"uv":[20,10.5],"uv_size":[5,5]},"east":{"uv":[8,10.5],"uv_size":[5,5]},"south":{"uv":[0,10.5],"uv_size":[5,5]},"west":{"uv":[0,10.5],"uv_size":[5,5]},"up":{"uv":[5,5],"uv_size":[-5,-5]},"down":{"uv":[5,13],"uv_size":[-5,-5]}}},
+						{"origin":[-3,4,-5],"size":[3,6,3],"pivot":[-2,9,-3],"rotation":[5,-10,15],"uv":{"north":{"uv":[16,21.5],"uv_size":[3,6]},"east":{"uv":[16,21.5],"uv_size":[3,6]},"south":{"uv":[0,21.5],"uv_size":[3,6]},"west":{"uv":[0,21.5],"uv_size":[3,6]},"up":{"uv":[3,3],"uv_size":[-3,-3]},"down":{"uv":[3,19],"uv_size":[-3,-3]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_medium",
+					"parent": "geometry.voxel_resources_nugget",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-5,3,-5],"size":[10,10,10],"pivot":[0,8,0],"rotation":[-12.5,-10,0],"uv":{"north":{"uv":[0,0],"uv_size":[25,25]},"east":{"uv":[0,0],"uv_size":[25,25]},"south":{"uv":[0,0],"uv_size":[25,25]},"west":{"uv":[0,0],"uv_size":[25,25]},"up":{"uv":[25,25],"uv_size":[-25,-25]},"down":{"uv":[25,25],"uv_size":[-25,-25]}}},
+						{"origin":[-3,2,-7],"size":[8,6,7],"pivot":[0,7,-2],"rotation":[-5,-12.5,15],"uv":{"north":{"uv":[5,10],"uv_size":[20,15]},"east":{"uv":[7.5,10],"uv_size":[17.5,15]},"south":{"uv":[0,10],"uv_size":[20,15]},"west":{"uv":[0,10],"uv_size":[17.5,15]},"up":{"uv":[20,17.5],"uv_size":[-20,-17.5]},"down":{"uv":[20,25],"uv_size":[-20,-17.5]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_resources_nugget_big",
+					"parent": "geometry.voxel_resources_nugget",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,-1,-7],"size":[12,14,16],"pivot":[3,6,0],"rotation":[-17.5,-2.5,27.5],"uv":{"north":{"uv":[7.5,2.5],"uv_size":[30,35]},"east":{"uv":[0,2.5],"uv_size":[40,35]},"south":{"uv":[0,2.5],"uv_size":[30,35]},"west":{"uv":[0,2.5],"uv_size":[40,35]},"up":{"uv":[30,40],"uv_size":[-30,-40]},"down":{"uv":[30,40],"uv_size":[-30,-40]}}},
+						{"origin":[-7,1,-7],"size":[7,15,14],"pivot":[-3,8,0],"rotation":[2.5,-7.5,-12.5],"uv":{"north":{"uv":[17.5,2.5],"uv_size":[17.5,37.5]},"east":{"uv":[5,2.5],"uv_size":[35,37.5]},"south":{"uv":[0,2.5],"uv_size":[17.5,37.5]},"west":{"uv":[0,2.5],"uv_size":[35,37.5]},"up":{"uv":[17.5,35],"uv_size":[-17.5,-35]},"down":{"uv":[17.5,40],"uv_size":[-17.5,-35]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_blocks",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blocks_botton",
+					"parent": "geometry.voxel_blocks",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blb_north",
+					"parent": "geometry.voxel_blocks_botton",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vblbna",
+					"parent": "geometry.voxel_blb_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,8,8],"uv":{"north":{"uv":[20,0],"uv_size":[-20,10]},"east":{"uv":[10,20],"uv_size":[-10,10]},"south":{"uv":[20,10],"uv_size":[20,10]},"west":{"uv":[20,30],"uv_size":[-10,10]},"up":{"uv":[40,10],"uv_size":[-20,-10]},"down":{"uv":[20,20],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "vblbnb",
+					"parent": "geometry.voxel_blb_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,0],"size":[16,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[20,10]},"east":{"uv":[10,30],"uv_size":[-10,10]},"south":{"uv":[20,10],"uv_size":[-20,10]},"west":{"uv":[20,20],"uv_size":[-10,10]},"up":{"uv":[40,20],"uv_size":[-20,-10]},"down":{"uv":[40,10],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "vblbnc",
+					"parent": "geometry.voxel_blb_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,-8],"size":[8,8,16],"uv":{"north":{"uv":[10,20],"uv_size":[-10,10]},"east":{"uv":[20,0],"uv_size":[20,10]},"south":{"uv":[20,20],"uv_size":[-10,10]},"west":{"uv":[20,10],"uv_size":[-20,10]},"up":{"uv":[30,20],"uv_size":[10,20]},"down":{"uv":[20,20],"uv_size":[10,20]}}}
+					]
+				},
+				{
+					"name": "vblbnd",
+					"parent": "geometry.voxel_blb_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[8,8,16],"uv":{"north":{"uv":[20,30],"uv_size":[-10,10]},"east":{"uv":[20,10],"uv_size":[-20,10]},"south":{"uv":[10,30],"uv_size":[-10,10]},"west":{"uv":[20,10],"uv_size":[20,10]},"up":{"uv":[20,20],"uv_size":[10,20]},"down":{"uv":[40,40],"uv_size":[-10,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.voxel_blb_south",
+					"parent": "geometry.voxel_blocks_botton",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vblbsa",
+					"parent": "geometry.voxel_blb_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vblbsb",
+					"parent": "geometry.voxel_blb_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vblbsc",
+					"parent": "geometry.voxel_blb_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vblbsd",
+					"parent": "geometry.voxel_blb_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blocks_top",
+					"parent": "geometry.voxel_blocks",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blt_north",
+					"parent": "geometry.voxel_blocks_top",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltna",
+					"parent": "geometry.voxel_blt_north",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltnb",
+					"parent": "geometry.voxel_blt_north",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltnc",
+					"parent": "geometry.voxel_blt_north",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltnd",
+					"parent": "geometry.voxel_blt_north",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blt_south",
+					"parent": "geometry.voxel_blocks_top",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltsa",
+					"parent": "geometry.voxel_blt_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltsb",
+					"parent": "geometry.voxel_blt_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltsc",
+					"parent": "geometry.voxel_blt_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "vbltsd",
+					"parent": "geometry.voxel_blt_south",
+					"pivot": [
+						0,
+						8,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blocks_wall",
+					"parent": "geometry.voxel_blocks",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_blbw_north",
+					"parent": "geometry.voxel_blocks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vblbna2",
+					"parent": "geometry.voxel_blbw_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,0],"size":[16,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[20,10]},"east":{"uv":[10,30],"uv_size":[-10,10]},"south":{"uv":[20,10],"uv_size":[-20,10]},"west":{"uv":[20,20],"uv_size":[-10,10]},"up":{"uv":[40,20],"uv_size":[-20,-10]},"down":{"uv":[40,10],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "vblbnb2",
+					"parent": "geometry.voxel_blbw_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,0],"size":[16,8,8],"uv":{"north":{"uv":[20,0],"uv_size":[-20,10]},"east":{"uv":[10,20],"uv_size":[-10,10]},"south":{"uv":[20,10],"uv_size":[20,10]},"west":{"uv":[20,30],"uv_size":[-10,10]},"up":{"uv":[40,10],"uv_size":[-20,-10]},"down":{"uv":[20,20],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom",
+					"parent": "geometry.bricks",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_floor_north",
+					"parent": "geometry.bricks_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_floor_north_full",
+					"parent": "geometry.bricks_bottom_floor_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_floor_north_body",
+					"parent": "geometry.bricks_bottom_floor_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,14,16],"uv":{"north":{"uv":[0,2.5],"uv_size":[20,17.5]},"east":{"uv":[0,2.5],"uv_size":[20,17.5]},"south":{"uv":[0,2.5],"uv_size":[20,17.5]},"west":{"uv":[0,2.5],"uv_size":[20,17.5]},"up":{"uv":[40,20],"uv_size":[-20,-20]},"down":{"uv":[40,20],"uv_size":[-20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_floor_north_finishing",
+					"parent": "geometry.bricks_bottom_floor_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,14,-8],"size":[16,2,16],"uv":{"north":{"uv":[0,0],"uv_size":[20,2.5]},"east":{"uv":[0,0],"uv_size":[20,2.5]},"south":{"uv":[0,0],"uv_size":[20,2.5]},"west":{"uv":[0,0],"uv_size":[20,2.5]},"up":{"uv":[20,20],"uv_size":[-20,-20]},"down":{"uv":[20,20],"uv_size":[-20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_ceiling",
+					"parent": "geometry.bricks_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_stairs_north",
+					"parent": "geometry.bricks_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_stairs_north_full",
+					"parent": "geometry.bricks_bottom_stairs_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_stairs_north_body",
+					"parent": "geometry.bricks_bottom_stairs_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,6,15],"uv":{"north":{"uv":[0,2.5],"uv_size":[20,7.5]},"east":{"uv":[1.25,2.5],"uv_size":[18.75,7.5]},"south":{"uv":[0,2.5],"uv_size":[20,7.5]},"west":{"uv":[0,2.5],"uv_size":[18.75,7.5]},"up":{"uv":[25,28.75],"uv_size":[-20,-20]},"down":{"uv":[20,20],"uv_size":[-20,-20]}}},
+						{"origin":[-8,6,-8],"size":[16,8,7],"uv":{"north":{"uv":[0,2.5],"uv_size":[20,10]},"east":{"uv":[11.25,2.5],"uv_size":[8.75,10]},"south":{"uv":[0,0],"uv_size":[20,10]},"west":{"uv":[0,2.5],"uv_size":[8.75,10]},"up":{"uv":[25,28.75],"uv_size":[-20,-10]},"down":{"uv":[20,20],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_bottom_stairs_north_finishing",
+					"parent": "geometry.bricks_bottom_stairs_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,6,-1],"size":[16,2,9],"uv":{"north":{"uv":[0,2.5],"uv_size":[20,2.5]},"east":{"uv":[0,2.5],"uv_size":[11.25,2.5]},"south":{"uv":[0,2.5],"uv_size":[20,2.5]},"west":{"uv":[0,2.5],"uv_size":[11.25,2.5]},"up":{"uv":[20,20],"uv_size":[-20,-11.25]},"down":{"uv":[20,20],"uv_size":[-20,-11.25]}}},
+						{"origin":[-8,14,-8],"size":[16,2,9],"uv":{"north":{"uv":[0,2.5],"uv_size":[20,2.5]},"east":{"uv":[0,2.5],"uv_size":[11.25,2.5]},"south":{"uv":[0,2.5],"uv_size":[20,2.5]},"west":{"uv":[0,2.5],"uv_size":[11.25,2.5]},"up":{"uv":[20,20],"uv_size":[-20,-11.25]},"down":{"uv":[20,20],"uv_size":[-20,-11.25]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall",
+					"parent": "geometry.bricks",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_north",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_full",
+					"parent": "geometry.bricks_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_body",
+					"parent": "geometry.bricks_north_wall_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,16,6],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[2.5,0],"uv_size":[7.5,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[2.5,0],"uv_size":[7.5,20]},"up":{"uv":[3.75,27.5],"uv_size":[20,-7.5]},"down":{"uv":[5,35],"uv_size":[20,-7.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_full_finishing",
+					"parent": "geometry.bricks_north_wall_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-2],"size":[16,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[5,0],"uv_size":[-2.5,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[2.5,20]},"up":{"uv":[20,2.5],"uv_size":[-20,-2.5]},"down":{"uv":[20,2.5],"uv_size":[-20,2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_build_stage",
+					"parent": "geometry.bricks_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrnwbsa",
+					"parent": "geometry.bricks_north_wall_build_stage",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,15],"uv_size":[20,5]},"east":{"uv":[25,0],"uv_size":[7.5,5]},"south":{"uv":[20,15],"uv_size":[-20,5]},"west":{"uv":[25,10],"uv_size":[7.5,5]},"up":{"uv":[0,27.5],"uv_size":[20,-7.5]},"down":{"uv":[0,27.5],"uv_size":[20,-7.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwbsb",
+					"parent": "geometry.bricks_north_wall_build_stage",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,4,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,10],"uv_size":[20,5]},"east":{"uv":[26.25,10],"uv_size":[7.5,5]},"south":{"uv":[20,10],"uv_size":[-20,5]},"west":{"uv":[32.5,10],"uv_size":[7.5,5]},"up":{"uv":[0,35],"uv_size":[20,-7.5]},"down":{"uv":[0,35],"uv_size":[20,-7.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwbsc",
+					"parent": "geometry.bricks_north_wall_build_stage",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,5],"uv_size":[20,5]},"east":{"uv":[25,10],"uv_size":[7.5,5]},"south":{"uv":[0,5],"uv_size":[20,5]},"west":{"uv":[30,5],"uv_size":[7.5,5]},"up":{"uv":[0,27.5],"uv_size":[20,-7.5]},"down":{"uv":[0,27.5],"uv_size":[20,-7.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwbsd",
+					"parent": "geometry.bricks_north_wall_build_stage",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,12,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,0],"uv_size":[20,5]},"east":{"uv":[1.25,15],"uv_size":[7.5,5]},"south":{"uv":[8.75,0],"uv_size":[20,5]},"west":{"uv":[32.5,10],"uv_size":[7.5,5]},"up":{"uv":[0,35],"uv_size":[20,-7.5]},"down":{"uv":[0,35],"uv_size":[20,-7.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_south",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_inner_north_west",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_inner_north_west_full",
+					"parent": "geometry.bricks_wall_inner_north_west",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_inner_north_west_body",
+					"parent": "geometry.bricks_wall_inner_north_west_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,16,6],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[2.5,0],"uv_size":[7.5,20]},"south":{"uv":[20,0],"uv_size":[-20,20]},"west":{"uv":[12.5,0],"uv_size":[7.5,20]},"up":{"uv":[0,35],"uv_size":[20,-7.5]},"down":{"uv":[20,27.5],"uv_size":[-20,-7.5]}}},
+						{"origin":[2,0,-2],"size":[6,16,10],"uv":{"north":{"uv":[32.5,10],"uv_size":[7.5,20]},"east":{"uv":[8.75,0],"uv_size":[12.5,20]},"south":{"uv":[17.5,0],"uv_size":[7.5,20]},"west":{"uv":[7.5,0],"uv_size":[12.5,20]},"up":{"uv":[32.5,40],"uv_size":[-7.5,-12.5]},"down":{"uv":[32.5,20],"uv_size":[-7.5,12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_inner_north_west_finishing",
+					"parent": "geometry.bricks_wall_inner_north_west_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-2],"size":[10,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[12.5,20]},"east":{"uv":[5,0],"uv_size":[-2.5,20]},"south":{"uv":[0,0],"uv_size":[12.5,20]},"west":{"uv":[0,0],"uv_size":[2.5,20]},"up":{"uv":[12.5,2.5],"uv_size":[-12.5,-2.5]},"down":{"uv":[12.5,2.5],"uv_size":[-12.5,2.5]}}},
+						{"origin":[0,0,0],"size":[2,16,8],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[12.5,0],"uv_size":[-10,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[10,20]},"up":{"uv":[2.5,10],"uv_size":[-2.5,-10]},"down":{"uv":[2.5,2.5],"uv_size":[-2.5,10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_inner_north_west_build_sage",
+					"parent": "geometry.bricks_wall_inner_north_west",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrnwwibsa",
+					"parent": "geometry.bricks_wall_inner_north_west_build_sage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,15],"uv_size":[20,5]},"east":{"uv":[32.5,10],"uv_size":[7.5,5]},"south":{"uv":[8.75,5],"uv_size":[20,5]},"west":{"uv":[15,10],"uv_size":[7.5,5]},"up":{"uv":[0,27.5],"uv_size":[20,-7.5]},"down":{"uv":[20,27.5],"uv_size":[-20,-7.5]}}},
+						{"origin":[2,0,-2],"size":[6,4,10],"uv":{"north":{"uv":[32.5,10],"uv_size":[7.5,5]},"east":{"uv":[8.75,15],"uv_size":[12.5,5]},"south":{"uv":[25,10],"uv_size":[7.5,5]},"west":{"uv":[7.5,15],"uv_size":[12.5,5]},"up":{"uv":[32.5,35],"uv_size":[-7.5,-12.5]},"down":{"uv":[32.5,20],"uv_size":[-7.5,12.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwwibsb",
+					"parent": "geometry.bricks_wall_inner_north_west_build_sage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,4,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,10],"uv_size":[20,5]},"east":{"uv":[25,10],"uv_size":[7.5,5]},"south":{"uv":[8.75,10],"uv_size":[20,5]},"west":{"uv":[32.5,10],"uv_size":[7.5,5]},"up":{"uv":[0,35],"uv_size":[20,-7.5]},"down":{"uv":[23.75,27.5],"uv_size":[-20,-7.5]}}},
+						{"origin":[2,4,-2],"size":[6,4,10],"uv":{"north":{"uv":[25,10],"uv_size":[7.5,5]},"east":{"uv":[3.75,15],"uv_size":[12.5,5]},"south":{"uv":[32.5,10],"uv_size":[7.5,5]},"west":{"uv":[7.5,10],"uv_size":[12.5,5]},"up":{"uv":[32.5,40],"uv_size":[-7.5,-12.5]},"down":{"uv":[32.5,31.25],"uv_size":[-7.5,-12.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwwibsc",
+					"parent": "geometry.bricks_wall_inner_north_west_build_sage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,8,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,5],"uv_size":[20,5]},"east":{"uv":[32.5,5],"uv_size":[7.5,5]},"south":{"uv":[0,5],"uv_size":[20,5]},"west":{"uv":[25,5],"uv_size":[7.5,5]},"up":{"uv":[23.75,35],"uv_size":[-20,-7.5]},"down":{"uv":[20,27.5],"uv_size":[-20,-7.5]}}},
+						{"origin":[2,8,-2],"size":[6,4,10],"uv":{"north":{"uv":[25,5],"uv_size":[7.5,5]},"east":{"uv":[3.75,10],"uv_size":[12.5,5]},"south":{"uv":[32.5,5],"uv_size":[7.5,5]},"west":{"uv":[7.5,5],"uv_size":[12.5,5]},"up":{"uv":[40,30],"uv_size":[-7.5,-12.5]},"down":{"uv":[40,31.25],"uv_size":[-7.5,-12.5]}}}
+					]
+				},
+				{
+					"name": "vbrnwwibsd",
+					"parent": "geometry.bricks_wall_inner_north_west_build_sage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,12,-8],"size":[16,4,6],"uv":{"north":{"uv":[0,10],"uv_size":[20,5]},"east":{"uv":[5,0],"uv_size":[7.5,5]},"south":{"uv":[8.75,0],"uv_size":[20,5]},"west":{"uv":[25,0],"uv_size":[7.5,5]},"up":{"uv":[23.75,27.5],"uv_size":[-20,-7.5]},"down":{"uv":[23.75,27.5],"uv_size":[-20,-7.5]}}},
+						{"origin":[2,12,-2],"size":[6,4,10],"uv":{"north":{"uv":[25,0],"uv_size":[7.5,5]},"east":{"uv":[3.75,5],"uv_size":[12.5,5]},"south":{"uv":[32.5,5],"uv_size":[7.5,5]},"west":{"uv":[7.5,10],"uv_size":[12.5,5]},"up":{"uv":[32.5,40],"uv_size":[-7.5,-12.5]},"down":{"uv":[32.5,40],"uv_size":[-7.5,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_outer_north_west_wall",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_outer_north_west_full",
+					"parent": "geometry.bricks_wall_outer_north_west_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_west_wall_outer_body",
+					"parent": "geometry.bricks_wall_outer_north_west_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,-8],"size":[8,16,8],"uv":{"north":{"uv":[0,0],"uv_size":[10,20]},"east":{"uv":[15,0],"uv_size":[10,20]},"south":{"uv":[8.75,0],"uv_size":[10,20]},"west":{"uv":[10,0],"uv_size":[10,20]},"up":{"uv":[13.75,28.75],"uv_size":[-10,-10]},"down":{"uv":[33.75,35],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_west_wall_outer_finishing",
+					"parent": "geometry.bricks_wall_outer_north_west_full",
+					"pivot": [
+						6,
+						0,
+						2
+					],
+					"cubes": [
+						{"origin":[-2,0,0],"size":[10,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[12.5,20]},"east":{"uv":[5,0],"uv_size":[-2.5,20]},"south":{"uv":[0,0],"uv_size":[12.5,20]},"west":{"uv":[0,0],"uv_size":[2.5,20]},"up":{"uv":[12.5,2.5],"uv_size":[-12.5,-2.5]},"down":{"uv":[12.5,2.5],"uv_size":[-12.5,2.5]}}},
+						{"origin":[-2,0,-8],"size":[2,16,8],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[12.5,0],"uv_size":[-10,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[10,20]},"up":{"uv":[2.5,10],"uv_size":[-2.5,-10]},"down":{"uv":[2.5,2.5],"uv_size":[-2.5,10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_outer_north_west_build_stage",
+					"parent": "geometry.bricks_wall_outer_north_west_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrbnwia2",
+					"parent": "geometry.bricks_wall_outer_north_west_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,0,-8],"size":[8,4,8],"uv":{"north":{"uv":[15,10],"uv_size":[10,5]},"east":{"uv":[30,10],"uv_size":[10,5]},"south":{"uv":[23.75,10],"uv_size":[10,5]},"west":{"uv":[25,10],"uv_size":[10,5]},"up":{"uv":[33.75,35],"uv_size":[-10,-10]},"down":{"uv":[33.75,35],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "vbrbnwib2",
+					"parent": "geometry.bricks_wall_outer_north_west_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,4,-8],"size":[8,4,8],"uv":{"north":{"uv":[20,10],"uv_size":[10,5]},"east":{"uv":[25,10],"uv_size":[10,5]},"south":{"uv":[18.75,10],"uv_size":[10,5]},"west":{"uv":[30,10],"uv_size":[10,5]},"up":{"uv":[13.75,28.75],"uv_size":[-10,-10]},"down":{"uv":[10,12.5],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "vbrbnwic2",
+					"parent": "geometry.bricks_wall_outer_north_west_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,8,-8],"size":[8,4,8],"uv":{"north":{"uv":[10,5],"uv_size":[10,5]},"east":{"uv":[30,0],"uv_size":[10,5]},"south":{"uv":[8.75,5],"uv_size":[10,5]},"west":{"uv":[28.75,10],"uv_size":[10,5]},"up":{"uv":[33.75,35],"uv_size":[-10,-10]},"down":{"uv":[33.75,35],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "vbrbnwid2",
+					"parent": "geometry.bricks_wall_outer_north_west_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[0,12,-8],"size":[8,4,8],"uv":{"north":{"uv":[20,10],"uv_size":[10,5]},"east":{"uv":[25,0],"uv_size":[10,5]},"south":{"uv":[8.75,0],"uv_size":[10,5]},"west":{"uv":[30,0],"uv_size":[10,5]},"up":{"uv":[23.75,28.75],"uv_size":[-10,-10]},"down":{"uv":[23.75,28.75],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_north",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_north_full",
+					"parent": "geometry.bricks_wall_partition_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_body",
+					"parent": "geometry.bricks_wall_partition_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"uv":{"north":{"uv":[2.5,0],"uv_size":[15,20]},"east":{"uv":[3.75,0],"uv_size":[20,20]},"south":{"uv":[2.5,0],"uv_size":[15,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[40,40],"uv_size":[-15,-20]},"down":{"uv":[40,40],"uv_size":[-15,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_finishinga",
+					"parent": "geometry.bricks_wall_partition_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[6,0,-8],"size":[2,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_finishingb",
+					"parent": "geometry.bricks_wall_partition_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[2,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_north_build_stage",
+					"parent": "geometry.bricks_wall_partition_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_t_north",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_t_north_full",
+					"parent": "geometry.bricks_wall_partition_t_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_t_body",
+					"parent": "geometry.bricks_wall_partition_t_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-2],"size":[12,16,10],"uv":{"north":{"uv":[2.5,0],"uv_size":[15,20]},"east":{"uv":[0,0],"uv_size":[12.5,20]},"south":{"uv":[2.5,0],"uv_size":[15,20]},"west":{"uv":[1.25,0],"uv_size":[12.5,20]},"up":{"uv":[40,33.75],"uv_size":[-15,-12.5]},"down":{"uv":[40,32.5],"uv_size":[-15,-12.5]}}},
+						{"origin":[-8,0,-8],"size":[16,16,6],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[3.75,0],"uv_size":[7.5,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[7.5,20]},"up":{"uv":[23.75,27.5],"uv_size":[-20,-7.5]},"down":{"uv":[40,27.5],"uv_size":[-20,-7.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_t_finishinga",
+					"parent": "geometry.bricks_wall_partition_t_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[6,0,-2],"size":[2,16,10],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_t_finishingb",
+					"parent": "geometry.bricks_wall_partition_t_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-2],"size":[2,16,10],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_t_north_build_stage",
+					"parent": "geometry.bricks_wall_partition_t_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_e_north",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_wall_partition_e_north_full",
+					"parent": "geometry.bricks_wall_partition_e_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_e_body",
+					"parent": "geometry.bricks_wall_partition_e_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,14],"uv":{"north":{"uv":[0,0],"uv_size":[15,20]},"east":{"uv":[6.25,0],"uv_size":[17.5,20]},"south":{"uv":[2.5,0],"uv_size":[15,20]},"west":{"uv":[0,0],"uv_size":[17.5,20]},"up":{"uv":[40,37.5],"uv_size":[-15,-17.5]},"down":{"uv":[40,37.5],"uv_size":[-15,-17.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_e_finishinga",
+					"parent": "geometry.bricks_wall_partition_e_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[6,0,-8],"size":[2,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}},
+						{"origin":[0,0,6],"size":[6,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[7.5,20]},"east":{"uv":[2.5,0],"uv_size":[-2.5,20]},"south":{"uv":[0,0],"uv_size":[7.5,20]},"west":{"uv":[0,0],"uv_size":[2.5,20]},"up":{"uv":[7.5,2.5],"uv_size":[-7.5,-2.5]},"down":{"uv":[7.5,0],"uv_size":[-7.5,2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_north_wall_partition_e_finishingb",
+					"parent": "geometry.bricks_wall_partition_e_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[2,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[2.5,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[2.5,20],"uv_size":[-2.5,-20]},"down":{"uv":[2.5,0],"uv_size":[-2.5,20]}}},
+						{"origin":[-6,0,6],"size":[6,16,2],"uv":{"north":{"uv":[7.5,0],"uv_size":[7.5,20]},"east":{"uv":[10,0],"uv_size":[-2.5,20]},"south":{"uv":[7.5,0],"uv_size":[7.5,20]},"west":{"uv":[7.5,0],"uv_size":[2.5,20]},"up":{"uv":[15,2.5],"uv_size":[-7.5,-2.5]},"down":{"uv":[15,0],"uv_size":[-7.5,2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_column_inner",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_column_full",
+					"parent": "geometry.bricks_column_inner",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_column_body",
+					"parent": "geometry.bricks_column_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-6],"size":[12,16,12],"uv":{"north":{"uv":[0,20],"uv_size":[15,20]},"east":{"uv":[0,20],"uv_size":[15,20]},"south":{"uv":[0,20],"uv_size":[15,20]},"west":{"uv":[0,20],"uv_size":[15,20]},"up":{"uv":[30,35],"uv_size":[-15,-15]},"down":{"uv":[30,35],"uv_size":[-15,-15]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_column_finishing",
+					"parent": "geometry.bricks_column_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[20,0],"uv_size":[-20,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[20,20],"uv_size":[-20,-20]},"down":{"uv":[20,0],"uv_size":[-20,20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_column_build_stage",
+					"parent": "geometry.bricks_column_inner",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_column_outer",
+					"parent": "geometry.bricks_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_column_outer_full",
+					"parent": "geometry.bricks_column_outer",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,16,16],"uv":{"north":{"uv":[0,0],"uv_size":[20,20]},"east":{"uv":[0,0],"uv_size":[20,20]},"south":{"uv":[0,0],"uv_size":[20,20]},"west":{"uv":[0,0],"uv_size":[20,20]},"up":{"uv":[40,20],"uv_size":[-20,-20]},"down":{"uv":[40,20],"uv_size":[-20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.bricks_column_outer_build_stage",
+					"parent": "geometry.bricks_column_outer",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.bricks_top",
+					"parent": "geometry.bricks",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_bricks_north",
+					"parent": "geometry.bricks_top",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtna",
+					"parent": "geometry.voxel_bricks_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtnb",
+					"parent": "geometry.voxel_bricks_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtnc",
+					"parent": "geometry.voxel_bricks_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtnd",
+					"parent": "geometry.voxel_bricks_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.voxel_bricks_south",
+					"parent": "geometry.bricks_top",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtsa",
+					"parent": "geometry.voxel_bricks_south",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtsb",
+					"parent": "geometry.voxel_bricks_south",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtsc",
+					"parent": "geometry.voxel_bricks_south",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "vbrtsd",
+					"parent": "geometry.voxel_bricks_south",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build",
+					"parent": "geometry.voxel",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood",
+					"parent": "geometry.build",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_bottom",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_bottom_top",
+					"parent": "geometry.build_wood_bottom",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_bottom_top_full",
+					"parent": "geometry.build_wood_bottom_top",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "bone",
+					"parent": "geometry.build_wood_bottom_top",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_floor",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north",
+					"parent": "geometry.build_wood_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_full",
+					"parent": "geometry.build_wood_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_body",
+					"parent": "geometry.build_wood_wall_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-6],"size":[16,16,4],"uv":{"north":{"uv":[0,0],"uv_size":[40,40]},"east":{"uv":[30,0],"uv_size":[10,40]},"south":{"uv":[0,0],"uv_size":[40,40]},"west":{"uv":[20,0],"uv_size":[10,40]},"up":{"uv":[40,10],"uv_size":[-40,-10]},"down":{"uv":[40,30],"uv_size":[-40,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_finishinga",
+					"parent": "geometry.build_wood_wall_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[16,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[40,40]},"east":{"uv":[30,0],"uv_size":[5,40]},"south":{"uv":[0,0],"uv_size":[40,40]},"west":{"uv":[5,0],"uv_size":[5,40]},"up":{"uv":[40,10],"uv_size":[-40,-5]},"down":{"uv":[40,35],"uv_size":[-40,-5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_finishingb",
+					"parent": "geometry.build_wood_wall_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-2],"size":[16,16,2],"uv":{"north":{"uv":[0,0],"uv_size":[40,40]},"east":{"uv":[30,0],"uv_size":[5,40]},"south":{"uv":[0,0],"uv_size":[40,40]},"west":{"uv":[5,0],"uv_size":[5,40]},"up":{"uv":[40,10],"uv_size":[-40,-5]},"down":{"uv":[40,32.5],"uv_size":[-40,-5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_build_stage",
+					"parent": "geometry.build_wood_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_build_stagea",
+					"parent": "geometry.build_wood_wall_north_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-5],"size":[16,1,2],"uv":{"north":{"uv":[0,0],"uv_size":[40,2.5]},"east":{"uv":[5,0],"uv_size":[5,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,0],"uv_size":[5,2.5]},"up":{"uv":[40,5],"uv_size":[-40,-5]},"down":{"uv":[40,5],"uv_size":[-42.5,-5]}}},
+						{"origin":[-10,7.5,-5],"size":[20,1,2],"pivot":[0,8,-4],"rotation":[0,0,45],"uv":{"north":{"uv":[0,0],"uv_size":[40,2.5]},"east":{"uv":[5,0],"uv_size":[5,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,0],"uv_size":[5,2.5]},"up":{"uv":[40,5],"uv_size":[-40,-5]},"down":{"uv":[40,5],"uv_size":[-42.5,-5]}}},
+						{"origin":[0.5,7.5,-5],"size":[14,1,2],"pivot":[7.5,8,-4],"rotation":[0,0,90],"uv":{"north":{"uv":[0,0],"uv_size":[40,2.5]},"east":{"uv":[5,0],"uv_size":[5,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,0],"uv_size":[5,2.5]},"up":{"uv":[40,5],"uv_size":[-40,-5]},"down":{"uv":[40,5],"uv_size":[-42.5,-5]}}},
+						{"origin":[-14.5,7.5,-5],"size":[14,1,2],"pivot":[-7.5,8,-4],"rotation":[0,0,90],"uv":{"north":{"uv":[0,0],"uv_size":[40,2.5]},"east":{"uv":[5,0],"uv_size":[5,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,0],"uv_size":[5,2.5]},"up":{"uv":[40,5],"uv_size":[-40,-5]},"down":{"uv":[40,5],"uv_size":[-42.5,-5]}}},
+						{"origin":[-8,15,-5],"size":[16,1,2],"uv":{"north":{"uv":[0,0],"uv_size":[40,2.5]},"east":{"uv":[5,0],"uv_size":[5,2.5]},"south":{"uv":[0,2.5],"uv_size":[40,2.5]},"west":{"uv":[0,0],"uv_size":[5,2.5]},"up":{"uv":[40,5],"uv_size":[-40,-5]},"down":{"uv":[40,5],"uv_size":[-42.5,-5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_build_stageb",
+					"parent": "geometry.build_wood_wall_north_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-6],"size":[16,16,1],"uv":{"north":{"uv":[0,0],"uv_size":[40,40]},"east":{"uv":[2.5,0],"uv_size":[2.5,40]},"south":{"uv":[0,0],"uv_size":[40,40]},"west":{"uv":[0,0],"uv_size":[2.5,40]},"up":{"uv":[40,2.5],"uv_size":[-40,-2.5]},"down":{"uv":[40,5],"uv_size":[-40,-2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_wall_north_build_stagec",
+					"parent": "geometry.build_wood_wall_north_build_stage",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,0,-3],"size":[16,16,1],"uv":{"north":{"uv":[0,0],"uv_size":[40,40]},"east":{"uv":[2.5,0],"uv_size":[2.5,40]},"south":{"uv":[0,0],"uv_size":[40,40]},"west":{"uv":[0,0],"uv_size":[2.5,40]},"up":{"uv":[40,2.5],"uv_size":[-40,-2.5]},"down":{"uv":[40,5],"uv_size":[-40,-2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_stair",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_stair_north",
+					"parent": "geometry.build_wood_stair",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_stair_north_full",
+					"parent": "geometry.build_wood_stair_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_stair_north_body",
+					"parent": "geometry.build_wood_stair_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[6,0,-8],"size":[2,14,7],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,17.5]},"east":{"uv":[1.25,0],"uv_size":[8.75,17.5]},"south":{"uv":[0,0],"uv_size":[2.5,17.5]},"west":{"uv":[0,0],"uv_size":[8.75,17.5]},"up":{"uv":[2.5,8.75],"uv_size":[-2.5,-8.75]},"down":{"uv":[2.5,10],"uv_size":[-2.5,-8.75]}}},
+						{"origin":[-8,0,-8],"size":[2,14,7],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,17.5]},"east":{"uv":[1.25,0],"uv_size":[8.75,17.5]},"south":{"uv":[0,0],"uv_size":[2.5,17.5]},"west":{"uv":[0,0],"uv_size":[8.75,17.5]},"up":{"uv":[2.5,8.75],"uv_size":[-2.5,-8.75]},"down":{"uv":[2.5,10],"uv_size":[-2.5,-8.75]}}},
+						{"origin":[6,0,-1],"size":[2,6,8],"uv":{"north":{"uv":[0,10],"uv_size":[2.5,7.5]},"east":{"uv":[0,10],"uv_size":[10,7.5]},"south":{"uv":[0,10],"uv_size":[2.5,7.5]},"west":{"uv":[0,10],"uv_size":[10,7.5]},"up":{"uv":[2.5,10],"uv_size":[-2.5,-10]},"down":{"uv":[2.5,10],"uv_size":[-2.5,-10]}}},
+						{"origin":[-8,0,-1],"size":[2,6,8],"uv":{"north":{"uv":[0,10],"uv_size":[2.5,7.5]},"east":{"uv":[0,10],"uv_size":[10,7.5]},"south":{"uv":[0,10],"uv_size":[2.5,7.5]},"west":{"uv":[0,10],"uv_size":[10,7.5]},"up":{"uv":[2.5,10],"uv_size":[-2.5,-10]},"down":{"uv":[2.5,10],"uv_size":[-2.5,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_stair_north_finishing",
+					"parent": "geometry.build_wood_stair_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,6,-1],"size":[16,2,9],"uv":{"north":{"uv":[0,0],"uv_size":[20,2.5]},"east":{"uv":[0,0],"uv_size":[11.25,2.5]},"south":{"uv":[0,0],"uv_size":[20,2.5]},"west":{"uv":[0,0],"uv_size":[11.25,2.5]},"up":{"uv":[20,11.25],"uv_size":[-20,-11.25]},"down":{"uv":[20,11.25],"uv_size":[-20,-11.25]}}},
+						{"origin":[-8,14,-8],"size":[16,2,8],"uv":{"north":{"uv":[0,0],"uv_size":[20,2.5]},"east":{"uv":[1.25,0],"uv_size":[10,2.5]},"south":{"uv":[0,0],"uv_size":[20,2.5]},"west":{"uv":[0,0],"uv_size":[10,2.5]},"up":{"uv":[20,10],"uv_size":[-20,-10]},"down":{"uv":[20,11.25],"uv_size":[-20,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_top",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof",
+					"parent": "geometry.build_wood",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof_north",
+					"parent": "geometry.build_wood_roof",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof_north_full",
+					"parent": "geometry.build_wood_roof_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof_north_body",
+					"parent": "geometry.build_wood_roof_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-7,0,-8],"size":[2,14,2],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,17.5]},"east":{"uv":[0,0],"uv_size":[2.5,17.5]},"south":{"uv":[0,0],"uv_size":[2.5,17.5]},"west":{"uv":[0,0],"uv_size":[2.5,17.5]},"up":{"uv":[2.5,2.5],"uv_size":[-2.5,-2.5]},"down":{"uv":[2.5,2.5],"uv_size":[-2.5,-2.5]}}},
+						{"origin":[-7,0,-6],"size":[2,2,12],"uv":{"north":{"uv":[0,15],"uv_size":[2.5,2.5]},"east":{"uv":[0,15],"uv_size":[15,2.5]},"south":{"uv":[0,15],"uv_size":[2.5,2.5]},"west":{"uv":[0,15],"uv_size":[15,2.5]},"up":{"uv":[2.5,15],"uv_size":[-2.5,-15]},"down":{"uv":[2.5,15],"uv_size":[-2.5,-15]}}},
+						{"origin":[5,0,-6],"size":[2,2,12],"uv":{"north":{"uv":[0,15],"uv_size":[2.5,2.5]},"east":{"uv":[0,15],"uv_size":[15,2.5]},"south":{"uv":[0,15],"uv_size":[2.5,2.5]},"west":{"uv":[0,15],"uv_size":[15,2.5]},"up":{"uv":[2.5,15],"uv_size":[-2.5,-15]},"down":{"uv":[2.5,15],"uv_size":[-2.5,-15]}}},
+						{"origin":[5,0,-8],"size":[2,14,2],"uv":{"north":{"uv":[0,0],"uv_size":[2.5,17.5]},"east":{"uv":[0,0],"uv_size":[2.5,17.5]},"south":{"uv":[0,0],"uv_size":[2.5,17.5]},"west":{"uv":[0,0],"uv_size":[2.5,17.5]},"up":{"uv":[2.5,2.5],"uv_size":[-2.5,-2.5]},"down":{"uv":[2.5,2.5],"uv_size":[-2.5,-2.5]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof_north_finishing",
+					"parent": "geometry.build_wood_roof_north_full",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-8,7,-12],"size":[16,2,23],"pivot":[0,8,-0.5],"rotation":[-45,0,0],"uv":{"north":{"uv":[0,0],"uv_size":[20,2.5]},"east":{"uv":[0,0],"uv_size":[28.75,2.5]},"south":{"uv":[0,0],"uv_size":[20,2.5]},"west":{"uv":[0,0],"uv_size":[28.75,2.5]},"up":{"uv":[20,20],"uv_size":[-20,-20]},"down":{"uv":[20,20],"uv_size":[-20,-20]}}}
+					]
+				},
+				{
+					"name": "geometry.build_wood_roof_north_build_stage",
+					"parent": "geometry.build_wood_roof_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log",
+					"parent": "geometry.build",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_big_wall",
+					"parent": "geometry.build_log",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_big_wall_north",
+					"parent": "geometry.build_log_big_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_big_wall_north_full",
+					"parent": "geometry.build_log_big_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,8,0],"rotation":[-90,0,0],"uv":{"north":{"uv":[1.25,20],"uv_size":[7.5,10]},"east":{"uv":[0,20],"uv_size":[10,10]},"south":{"uv":[1.25,20],"uv_size":[7.5,10]},"west":{"uv":[0,20],"uv_size":[10,10]},"up":{"uv":[1.25,0],"uv_size":[7.5,10]},"down":{"uv":[1.25,10],"uv_size":[7.5,-10]}}},
+						{"origin":[-6,0,-8],"size":[12,16,16],"pivot":[0,8,0],"rotation":[-90,0,90],"uv":{"north":{"uv":[1.25,20],"uv_size":[7.5,10]},"east":{"uv":[0,20],"uv_size":[10,10]},"south":{"uv":[1.25,20],"uv_size":[7.5,10]},"west":{"uv":[0,20],"uv_size":[10,10]},"up":{"uv":[1.25,10],"uv_size":[7.5,10]},"down":{"uv":[1.25,20],"uv_size":[7.5,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.build_log_big_wall_north_build_stage",
+					"parent": "geometry.build_log_big_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_small_wall",
+					"parent": "geometry.build_log",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_small_wall_north",
+					"parent": "geometry.build_log_small_wall",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.build_log_small_wall_north_full",
+					"parent": "geometry.build_log_small_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[1,0,-8],"size":[6,16,16],"pivot":[1,8,0],"rotation":[-90,0,0],"uv":{"north":{"uv":[29.25,24],"uv_size":[6,16]},"east":{"uv":[24,24],"uv_size":[16,16]},"south":{"uv":[29.25,24],"uv_size":[6,16]},"west":{"uv":[24,24],"uv_size":[16,16]},"up":{"uv":[33,0],"uv_size":[6,16]},"down":{"uv":[33,16],"uv_size":[6,-16]}}},
+						{"origin":[0,-1,-8],"size":[6,16,8],"pivot":[0,7,0],"rotation":[-90,0,90],"uv":{"north":{"uv":[27,24],"uv_size":[6,16]},"east":{"uv":[25,24],"uv_size":[8,16]},"south":{"uv":[34,24],"uv_size":[6,16]},"west":{"uv":[31,24],"uv_size":[8,16]},"up":{"uv":[6,31],"uv_size":[6,8]},"down":{"uv":[6,39],"uv_size":[6,-8]}}},
+						{"origin":[0,7,-8],"size":[6,16,8],"pivot":[0,15,0],"rotation":[-90,0,90],"uv":{"north":{"uv":[34,24],"uv_size":[6,16]},"east":{"uv":[27,24],"uv_size":[8,16]},"south":{"uv":[24,24],"uv_size":[6,16]},"west":{"uv":[31,24],"uv_size":[8,16]},"up":{"uv":[6,31],"uv_size":[6,8]},"down":{"uv":[6,39],"uv_size":[6,-8]}}}
+					]
+				},
+				{
+					"name": "geometry.build_log_small_wall_north_build_stage",
+					"parent": "geometry.build_log_small_wall_north",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.stone",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.stone.small",
+					"parent": "geometry.stone",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.stone_sa",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[3,-1,-7],"size":[4,5,4],"pivot":[5,-1,-5],"rotation":[-5,-5,7.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sb",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-2,-1,-7],"size":[4,4,4],"pivot":[0,-1,-5],"rotation":[7.5,-10,10],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sc",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-6,-1,-7],"size":[3,3,6],"pivot":[-5,-1,-5],"rotation":[-10,7.5,-7.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sd",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[3,-1,-2],"size":[4,3,4],"pivot":[5,-1,0],"rotation":[10,-5,7.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_se",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-3,-1,-2],"size":[5,4,5],"pivot":[0,-1,0],"rotation":[-7.5,-10,10],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sf",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{"origin":[-7,-1,-2],"size":[5,4,3],"pivot":[-4,-1,0],"rotation":[0,5,-7.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sg",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[3,-1,3],"size":[4,4,5],"pivot":[5,-1,5],"rotation":[7.5,-22.5,5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_sh",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-2,-1,3],"size":[4,4,4],"pivot":[0,-1,5],"rotation":[7.5,-7.5,7.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone_si",
+					"parent": "geometry.stone.small",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-7,-1,3],"size":[4,4,4],"pivot":[-5,-1,5],"rotation":[-10,15,2.5],"uv":{"north":{"uv":[10,10],"uv_size":[10,10]},"east":{"uv":[10,0],"uv_size":[10,10]},"south":{"uv":[20,0],"uv_size":[10,10]},"west":{"uv":[20,10],"uv_size":[10,10]},"up":{"uv":[10,10],"uv_size":[-10,-10]},"down":{"uv":[10,20],"uv_size":[-10,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.plate",
+					"parent": "geometry.stone",
+					"pivot": [
+						1,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.stone.pa",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						1,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-4,0,-7],"size":[10,3,8],"pivot":[1,0,-3],"rotation":[-5,-5,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[25,7.5]},"east":{"uv":[0,17.5],"uv_size":[20,7.5]},"south":{"uv":[0,7.5],"uv_size":[25,7.5]},"west":{"uv":[0,7.5],"uv_size":[20,7.5]},"up":{"uv":[40,30],"uv_size":[-25,-20]},"down":{"uv":[32.5,20],"uv_size":[-25,-20]}}},
+						{"origin":[-5,2,-6],"size":[6,2,5],"pivot":[0,2,-5],"rotation":[7.5,17.5,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[15,5]},"east":{"uv":[25,20],"uv_size":[12.5,5]},"south":{"uv":[25,2.5],"uv_size":[15,5]},"west":{"uv":[20,12.5],"uv_size":[12.5,5]},"up":{"uv":[30,12.5],"uv_size":[-15,-12.5]},"down":{"uv":[25,25],"uv_size":[-15,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pb",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						-2,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-7,0,0],"size":[10,3,8],"pivot":[-2,0,4],"rotation":[7.5,0,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[25,7.5]},"east":{"uv":[0,17.5],"uv_size":[20,7.5]},"south":{"uv":[0,7.5],"uv_size":[25,7.5]},"west":{"uv":[0,7.5],"uv_size":[20,7.5]},"up":{"uv":[40,30],"uv_size":[-25,-20]},"down":{"uv":[32.5,20],"uv_size":[-25,-20]}}},
+						{"origin":[-8,2,0],"size":[6,2,7],"pivot":[-3,2,1],"rotation":[15,-5,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[15,5]},"east":{"uv":[22.5,20],"uv_size":[17.5,5]},"south":{"uv":[25,2.5],"uv_size":[15,5]},"west":{"uv":[20,12.5],"uv_size":[17.5,5]},"up":{"uv":[30,17.5],"uv_size":[-15,-17.5]},"down":{"uv":[25,30],"uv_size":[-15,-17.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pc",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						2,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[1,0,-4],"size":[9,3,8],"pivot":[5,0,0],"rotation":[-5,-15,-7.5],"uv":{"north":{"uv":[17.5,32.5],"uv_size":[22.5,7.5]},"east":{"uv":[19.16667,26.07143],"uv_size":[18.33333,6.42857]},"south":{"uv":[0,32.5],"uv_size":[22.5,7.5]},"west":{"uv":[5,17.5],"uv_size":[20,7.5]},"up":{"uv":[22.5,20],"uv_size":[-22.5,-20]},"down":{"uv":[40,27.5],"uv_size":[-22.5,-20]}}},
+						{"origin":[2,3,-2],"size":[7,2,5],"pivot":[8,3,-1],"rotation":[-15,-2.5,-7.5],"uv":{"north":{"uv":[22.5,7.5],"uv_size":[17.5,5]},"east":{"uv":[22.5,20],"uv_size":[12.5,5]},"south":{"uv":[0,27.5],"uv_size":[17.5,5]},"west":{"uv":[0,27.5],"uv_size":[12.5,5]},"up":{"uv":[22.5,20],"uv_size":[-17.5,-12.5]},"down":{"uv":[26.04168,33.21428],"uv_size":[-16.04168,-10.71428]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pd",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						-1,
+						0,
+						-2
+					],
+					"cubes": [
+						{"origin":[-8,0,-8],"size":[10,3,7],"pivot":[-3,0,-4],"rotation":[-5,-40,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[25,7.5]},"east":{"uv":[0,17.5],"uv_size":[17.5,7.5]},"south":{"uv":[0,7.5],"uv_size":[25,7.5]},"west":{"uv":[0,7.5],"uv_size":[17.5,7.5]},"up":{"uv":[40,27.5],"uv_size":[-25,-17.5]},"down":{"uv":[32.5,17.5],"uv_size":[-25,-17.5]}}},
+						{"origin":[-4,2,-2],"size":[5,2,4],"pivot":[0,2,-1],"rotation":[2.5,-20,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[12.5,5]},"east":{"uv":[25,20],"uv_size":[10,5]},"south":{"uv":[25,2.5],"uv_size":[12.5,5]},"west":{"uv":[20,12.5],"uv_size":[10,5]},"up":{"uv":[27.5,10],"uv_size":[-12.5,-10]},"down":{"uv":[22.5,22.5],"uv_size":[-12.5,-10]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pe",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						2,
+						0,
+						2
+					],
+					"cubes": [
+						{"origin":[-6,0,0],"size":[11,3,8],"pivot":[0,0,4],"rotation":[-5,-25,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[27.5,7.5]},"east":{"uv":[0,17.5],"uv_size":[20,7.5]},"south":{"uv":[0,7.5],"uv_size":[27.5,7.5]},"west":{"uv":[0,7.5],"uv_size":[20,7.5]},"up":{"uv":[40,30],"uv_size":[-27.5,-20]},"down":{"uv":[35,20],"uv_size":[-27.5,-20]}}},
+						{"origin":[1,2,3],"size":[6,3,5],"pivot":[6,2,4],"rotation":[-27.5,-2.5,10],"uv":{"north":{"uv":[0,12.5],"uv_size":[15,7.5]},"east":{"uv":[25,20],"uv_size":[12.5,7.5]},"south":{"uv":[25,2.5],"uv_size":[15,7.5]},"west":{"uv":[20,12.5],"uv_size":[12.5,7.5]},"up":{"uv":[30,12.5],"uv_size":[-15,-12.5]},"down":{"uv":[25,25],"uv_size":[-15,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pf",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						2,
+						0,
+						3
+					],
+					"cubes": [
+						{"origin":[0,-1,1],"size":[9,4,8],"pivot":[4,-1,5],"rotation":[-7.5,-2.5,-10],"uv":{"north":{"uv":[10,25],"uv_size":[22.5,7.5]},"east":{"uv":[5,15],"uv_size":[20,7.5]},"south":{"uv":[10,27.5],"uv_size":[22.5,7.5]},"west":{"uv":[17.5,10],"uv_size":[20,7.5]},"up":{"uv":[22.5,27.5],"uv_size":[-22.5,-20]},"down":{"uv":[40,20],"uv_size":[-22.5,-20]}}},
+						{"origin":[-2,1,1],"size":[8,2,5],"pivot":[5,1,2],"rotation":[7.5,17.5,0],"uv":{"north":{"uv":[20,32.5],"uv_size":[20,5]},"east":{"uv":[25,32.5],"uv_size":[12.5,5]},"south":{"uv":[0,32.5],"uv_size":[20,5]},"west":{"uv":[2.5,32.5],"uv_size":[12.5,5]},"up":{"uv":[20,15],"uv_size":[-20,-12.5]},"down":{"uv":[20,37.5],"uv_size":[-20,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pg",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						5,
+						0,
+						-5
+					],
+					"cubes": [
+						{"origin":[0,0,-9],"size":[10,3,11],"pivot":[5,0,-5],"rotation":[-5,7.5,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[25,7.5]},"east":{"uv":[0,17.5],"uv_size":[27.5,7.5]},"south":{"uv":[0,7.5],"uv_size":[25,7.5]},"west":{"uv":[0,7.5],"uv_size":[27.5,7.5]},"up":{"uv":[40,37.5],"uv_size":[-25,-27.5]},"down":{"uv":[32.5,27.5],"uv_size":[-25,-27.5]}}},
+						{"origin":[0,2,-5],"size":[5,3,5],"pivot":[4,2,-4],"rotation":[-5,-20,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[12.5,7.5]},"east":{"uv":[25,20],"uv_size":[12.5,7.5]},"south":{"uv":[25,2.5],"uv_size":[12.5,7.5]},"west":{"uv":[20,12.5],"uv_size":[12.5,7.5]},"up":{"uv":[27.5,12.5],"uv_size":[-12.5,-12.5]},"down":{"uv":[22.5,25],"uv_size":[-12.5,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.ph",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						1,
+						0,
+						-3
+					],
+					"cubes": [
+						{"origin":[-5,0,-4],"size":[8,3,9],"pivot":[-2,0,0],"rotation":[-5,-5,5],"uv":{"north":{"uv":[0,7.5],"uv_size":[20,7.5]},"east":{"uv":[0,17.5],"uv_size":[22.5,7.5]},"south":{"uv":[0,7.5],"uv_size":[20,7.5]},"west":{"uv":[0,7.5],"uv_size":[22.5,7.5]},"up":{"uv":[20,22.5],"uv_size":[-20,-22.5]},"down":{"uv":[27.5,22.5],"uv_size":[-20,-22.5]}}},
+						{"origin":[-1,2,-5],"size":[4,2,7],"pivot":[2,2,-4],"rotation":[7.5,17.5,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[10,5]},"east":{"uv":[22.5,20],"uv_size":[17.5,5]},"south":{"uv":[25,2.5],"uv_size":[10,5]},"west":{"uv":[20,12.5],"uv_size":[17.5,5]},"up":{"uv":[25,17.5],"uv_size":[-10,-17.5]},"down":{"uv":[20,30],"uv_size":[-10,-17.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.pi",
+					"parent": "geometry.stone.plate",
+					"pivot": [
+						1,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-4,-1,-2],"size":[8,3,10],"pivot":[-1,-1,2],"rotation":[12.5,-2.5,-7.5],"uv":{"north":{"uv":[0,7.5],"uv_size":[20,7.5]},"east":{"uv":[0,17.5],"uv_size":[25,7.5]},"south":{"uv":[0,7.5],"uv_size":[20,7.5]},"west":{"uv":[0,7.5],"uv_size":[25,7.5]},"up":{"uv":[35,35],"uv_size":[-20,-25]},"down":{"uv":[27.5,25],"uv_size":[-20,-25]}}},
+						{"origin":[-1,2,0],"size":[6,3,5],"pivot":[4,2,1],"rotation":[7.5,17.5,0],"uv":{"north":{"uv":[0,12.5],"uv_size":[15,7.5]},"east":{"uv":[25,20],"uv_size":[12.5,7.5]},"south":{"uv":[25,2.5],"uv_size":[15,7.5]},"west":{"uv":[20,12.5],"uv_size":[12.5,7.5]},"up":{"uv":[30,12.5],"uv_size":[-15,-12.5]},"down":{"uv":[25,25],"uv_size":[-15,-12.5]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.boundler",
+					"parent": "geometry.stone",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "geometry.stone.ba",
+					"parent": "geometry.stone.boundler",
+					"pivot": [
+						0,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-4,-1,-7],"size":[11,10,10],"pivot":[2,4,-2],"rotation":[5,5,-5],"uv":{"north":{"uv":[7.5,10],"uv_size":[27.5,25]},"east":{"uv":[10,10],"uv_size":[25,25]},"south":{"uv":[0,10],"uv_size":[27.5,25]},"west":{"uv":[0,10],"uv_size":[25,25]},"up":{"uv":[27.5,25],"uv_size":[-27.5,-25]},"down":{"uv":[27.5,35],"uv_size":[-27.5,-25]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.bb",
+					"parent": "geometry.stone.boundler",
+					"pivot": [
+						-4,
+						0,
+						0
+					],
+					"cubes": [
+						{"origin":[-7,-1,-7],"size":[10,12,10],"pivot":[-2,4,-2],"rotation":[2.5,-2.5,5],"uv":{"north":{"uv":[10,5],"uv_size":[25,30]},"east":{"uv":[10,5],"uv_size":[25,30]},"south":{"uv":[0,5],"uv_size":[25,30]},"west":{"uv":[0,5],"uv_size":[25,30]},"up":{"uv":[25,25],"uv_size":[-25,-25]},"down":{"uv":[25,35],"uv_size":[-25,-25]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.bc",
+					"parent": "geometry.stone.boundler",
+					"pivot": [
+						0,
+						0,
+						4
+					],
+					"cubes": [
+						{"origin":[-3,-1,-3],"size":[10,10,10],"pivot":[2,4,2],"rotation":[-2.5,-2.5,5],"uv":{"north":{"uv":[10,10],"uv_size":[25,25]},"east":{"uv":[10,10],"uv_size":[25,25]},"south":{"uv":[0,10],"uv_size":[25,25]},"west":{"uv":[0,10],"uv_size":[25,25]},"up":{"uv":[25,25],"uv_size":[-25,-25]},"down":{"uv":[25,35],"uv_size":[-25,-25]}}}
+					]
+				},
+				{
+					"name": "geometry.stone.bd",
+					"parent": "geometry.stone.boundler",
+					"pivot": [
+						-4,
+						0,
+						4
+					],
+					"cubes": [
+						{"origin":[-7,-2,-3],"size":[10,10,10],"pivot":[-2,3,2],"rotation":[-5,-7.5,-5],"uv":{"north":{"uv":[10,10],"uv_size":[25,25]},"east":{"uv":[10,10],"uv_size":[25,25]},"south":{"uv":[0,10],"uv_size":[25,25]},"west":{"uv":[0,10],"uv_size":[25,25]},"up":{"uv":[25,25],"uv_size":[-25,-25]},"down":{"uv":[25,35],"uv_size":[-25,-25]}}}
+					]
+				}
+			]
+		}
+	]
+}
