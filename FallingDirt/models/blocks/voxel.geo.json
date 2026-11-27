@@ -32,16 +32,16 @@
 		"description": {"identifier": "geometry.voxel.layered","texture_width": 32,"texture_height": 32,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
 		"bones": [{
 			"name": "ba","pivot": [0, 0, 0],"cubes": [
-				{"origin":[-8,0,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,12],"uv_size":[16,4]},"east":{"uv":[0,12],"uv_size":[16,4]},"south":{"uv":[0,12],"uv_size":[16,4]},"west":{"uv":[0,12],"uv_size":[16,4]},"up":{"uv":[16,16],"uv_size":[16,16]},"down":{"uv":[16,32],"uv_size":[16,-16]}}}
+				{"origin":[-8,0,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,12],"uv_size":[16,4]},"east":{"uv":[0,12],"uv_size":[16,4]},"south":{"uv":[0,12],"uv_size":[16,4]},"west":{"uv":[0,12],"uv_size":[16,4]},"up":{"uv":[16,16],"uv_size":[16,16]},"down":{"uv":[16,16],"uv_size":[16,-16]}}}
 			]},{
 			"name": "bb","pivot": [0, 0, 0],"cubes": [
-				{"origin":[-8,4,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,8],"uv_size":[16,4]},"east":{"uv":[0,8],"uv_size":[16,4]},"south":{"uv":[0,8],"uv_size":[16,4]},"west":{"uv":[0,8],"uv_size":[16,4]},"up":{"uv":[0,16],"uv_size":[16,16]},"down":{"uv":[0,32],"uv_size":[16,-16]}}}
+				{"origin":[-8,4,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,8],"uv_size":[16,4]},"east":{"uv":[0,8],"uv_size":[16,4]},"south":{"uv":[0,8],"uv_size":[16,4]},"west":{"uv":[0,8],"uv_size":[16,4]},"up":{"uv":[0,16],"uv_size":[16,16]},"down":{"uv":[16,32],"uv_size":[16,-16]}}}
 			]},{
 			"name": "bc","pivot": [0, 0, 0],"cubes": [
-				{"origin":[-8,8,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,4],"uv_size":[16,4]},"east":{"uv":[0,4],"uv_size":[16,4]},"south":{"uv":[0,4],"uv_size":[16,4]},"west":{"uv":[0,4],"uv_size":[16,4]},"up":{"uv":[16,16],"uv_size":[16,16]},"down":{"uv":[16,32],"uv_size":[16,-16]}}}
+				{"origin":[-8,8,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,4],"uv_size":[16,4]},"east":{"uv":[0,4],"uv_size":[16,4]},"south":{"uv":[0,4],"uv_size":[16,4]},"west":{"uv":[0,4],"uv_size":[16,4]},"up":{"uv":[16,16],"uv_size":[16,16]},"down":{"uv":[0,32],"uv_size":[16,-16]}}}
 			]},{
 			"name": "bd","pivot": [0, 0, 0],"cubes": [
-				{"origin":[-8,12,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,0],"uv_size":[16,4]},"east":{"uv":[0,0],"uv_size":[16,4]},"south":{"uv":[0,0],"uv_size":[16,4]},"west":{"uv":[0,0],"uv_size":[16,4]},"up":{"uv":[16,0],"uv_size":[16,16]},"down":{"uv":[16,16],"uv_size":[16,-16]}}}
+				{"origin":[-8,12,-8],"size":[16,4,16],"uv":{"north":{"uv":[0,0],"uv_size":[16,4]},"east":{"uv":[0,0],"uv_size":[16,4]},"south":{"uv":[0,0],"uv_size":[16,4]},"west":{"uv":[0,0],"uv_size":[16,4]},"up":{"uv":[16,0],"uv_size":[16,16]},"down":{"uv":[16,32],"uv_size":[16,-16]}}}
 			]
 		}]
 	},{
@@ -57,7 +57,7 @@
 	},
 	
 	{
-		"description": {"identifier": "geometry.voxel_resource.small","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"description": {"identifier": "geometry.voxel_res.small","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
 		"bones": [{
 			"name": "vfta","pivot": [0, 0, 0],"cubes": [
 				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
@@ -89,7 +89,7 @@
 			]
 		}]
 	},{
-		"description": {"identifier": "geometry.voxel_resource.medium","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"description": {"identifier": "geometry.voxel_res.medium","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
 		"bones": [{
 			"name": "vfta","pivot": [0, 0, 0],"cubes": [
 				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}
@@ -121,7 +121,7 @@
 			]
 		}]
 	},{
-		"description": {"identifier": "geometry.voxel_resource.large","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"description": {"identifier": "geometry.voxel_res.large","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
 		"bones": [{
 			"name": "vfta","pivot": [0, 0, 0],"cubes": [
 				{"origin":[-8,8,-8],"size":[8,8,8],"uv":{"north":{"uv":[0,0],"uv_size":[8,8]},"east":{"uv":[8,0],"uv_size":[8,8]},"south":{"uv":[4,4],"uv_size":[8,8]},"west":{"uv":[0,0],"uv_size":[8,8]},"up":{"uv":[8,0],"uv_size":[8,8]},"down":{"uv":[8,8],"uv_size":[8,-8]}}}

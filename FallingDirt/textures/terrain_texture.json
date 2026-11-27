@@ -44,6 +44,8 @@
 		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
 		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
 
+		"pluginfd:sandstone_a":		{"textures": "textures/blocks/sandstone_a"},
+		"pluginfd:sandstone_b":		{"textures": "textures/blocks/sandstone_b"},
 		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
 		"pluginfd:sandstone_d":		{"textures": "textures/blocks/sandstone_d"},
 		
