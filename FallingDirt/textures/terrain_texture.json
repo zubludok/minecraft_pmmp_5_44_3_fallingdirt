@@ -48,6 +48,13 @@
 		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
 		"pluginfd:sandstone_d":		{"textures": "textures/blocks/sandstone_d"},
 		
+		"pluginfd:marble_a":		{"textures": "textures/blocks/marble_a"},
+		"pluginfd:marble_b":		{"textures": "textures/blocks/marble_b"},
+		"pluginfd:marble_c":		{"textures": "textures/blocks/marble_c"},
+		"pluginfd:marble_d":		{"textures": "textures/blocks/marble_d"},
+		"pluginfd:marble_e":		{"textures": "textures/blocks/marble_e"},
+		"pluginfd:marble_f":		{"textures": "textures/blocks/marble_f"},
+		
 		"pluginfd:tree_oak":			{"textures": "textures/blocks/oak_log"},
 		"pluginfd:tree_oak_str":		{"textures": "textures/blocks/oak_log_str"},
 		"pluginfd:tree_oak_hollow":		{"textures": "textures/blocks/oak_hollow"},
