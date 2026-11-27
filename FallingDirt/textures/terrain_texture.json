@@ -31,6 +31,8 @@
 		"pluginfd:basalt_a": 	{"textures": "textures/blocks/basalt_a"},
 		"pluginfd:basalt_b": 	{"textures": "textures/blocks/basalt_b"},
 		"pluginfd:basalt_c": 	{"textures": "textures/blocks/basalt_c"},
+		"pluginfd:basalt_d": 	{"textures": "textures/blocks/basalt_c"},
+		"pluginfd:basalt_e": 	{"textures": "textures/blocks/basalt_c"},
 		
 		"pluginfd:tuff_a": 		{"textures": "textures/blocks/tuff_a"},
 		"pluginfd:tuff_b": 		{"textures": "textures/blocks/tuff_b"},
@@ -39,9 +41,6 @@
 		"pluginfd:tuff_e": 		{"textures": "textures/blocks/tuff_e"},
 		
 		"pluginfd:dirt":		{"textures": "textures/blocks/dirt"},
-		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
-		
-		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
 		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
 
 		"pluginfd:sandstone_a":		{"textures": "textures/blocks/sandstone_a"},

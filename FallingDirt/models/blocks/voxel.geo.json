@@ -57,6 +57,24 @@
 	},
 	
 	{
+		"description": {"identifier": "geometry.voxel.columnar","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
+		"bones": [{
+			"name": "ba","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-9,2,-7],"size":[9,16,8],"uv":{"north":{"uv":[8,0],"uv_size":[8,16]},"east":{"uv":[8,0],"uv_size":[8,16]},"south":{"uv":[8,0],"uv_size":[8,16]},"west":{"uv":[8,0],"uv_size":[8,16]},"up":{"uv":[8,8],"uv_size":[-8,-8]},"down":{"uv":[8,16],"uv_size":[-8,-8]}}}
+			]},{
+			"name": "bb","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-9,1,-7],"size":[9,16,8],"pivot":[0,-1,0],"rotation":[0,90,0],"uv":{"north":{"uv":[8,0],"uv_size":[8,16]},"east":{"uv":[8,0],"uv_size":[8,16]},"south":{"uv":[8,0],"uv_size":[8,16]},"west":{"uv":[8,0],"uv_size":[8,16]},"up":{"uv":[8,8],"uv_size":[-8,-8]},"down":{"uv":[8,16],"uv_size":[-8,-8]}}}
+			]},{
+			"name": "bc","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-9,0,-7],"size":[9,16,9],"pivot":[0,-2,0],"rotation":[0,180,0],"uv":{"north":{"uv":[8,0],"uv_size":[8,16]},"east":{"uv":[8,0],"uv_size":[8,16]},"south":{"uv":[8,0],"uv_size":[8,16]},"west":{"uv":[8,0],"uv_size":[8,16]},"up":{"uv":[8,8],"uv_size":[-8,-8]},"down":{"uv":[8,16],"uv_size":[-8,-8]}}}
+			]},{
+			"name": "bd","pivot": [0, 0, 0],"cubes": [
+				{"origin":[-9,-1,-7],"size":[9,16,8],"pivot":[0,-3,0],"rotation":[0,-90,0],"uv":{"north":{"uv":[8,0],"uv_size":[8,16]},"east":{"uv":[8,0],"uv_size":[8,16]},"south":{"uv":[8,0],"uv_size":[8,16]},"west":{"uv":[8,0],"uv_size":[8,16]},"up":{"uv":[8,8],"uv_size":[-8,-8]},"down":{"uv":[8,16],"uv_size":[-8,-8]}}}
+			]
+		}]
+	},
+	
+	{
 		"description": {"identifier": "geometry.voxel_res.small","texture_width": 16,"texture_height": 16,"visible_bounds_width": 3,"visible_bounds_height": 2.5,"visible_bounds_offset": [0, 0.75, 0]},
 		"bones": [{
 			"name": "vfta","pivot": [0, 0, 0],"cubes": [
