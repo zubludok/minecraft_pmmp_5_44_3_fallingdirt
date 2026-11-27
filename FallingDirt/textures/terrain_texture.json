@@ -4,10 +4,18 @@
 	"texture_data": {
         "trash_block": 			{"textures": "textures/blocks/trash_block"},
 		"pluginfd:grass":		{"textures": "textures/blocks/grass_top"},
+		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
+		"pluginfd:dirt":		{"textures": "textures/blocks/dirt"},
 		"pluginfd:sand_white":	{"textures": "textures/blocks/sand_white"},
 		"pluginfd:sand_beige":	{"textures": "textures/blocks/sand"},
 		"pluginfd:sand_orange": {"textures": "textures/blocks/red_sand"},
+		
 		"pluginfd:gravel": 		{"textures": "textures/blocks/gravel"},
+		
+		"pluginfd:sandstone_a":		{"textures": "textures/blocks/sandstone_a"},
+		"pluginfd:sandstone_b":		{"textures": "textures/blocks/sandstone_b"},
+		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
+		"pluginfd:sandstone_d":		{"textures": "textures/blocks/sandstone_d"},
 		
 		"pluginfd:granit_a": 	{"textures": "textures/blocks/granit_a"},
 		"pluginfd:granit_b": 	{"textures": "textures/blocks/granit_b"},
@@ -28,25 +36,17 @@
 		"pluginfd:calcite_e": 	{"textures": "textures/blocks/calcite_e"},
 		"pluginfd:calcite_f": 	{"textures": "textures/blocks/calcite_f"},
 		
+		"pluginfd:shales_a": 	{"textures": "textures/blocks/shales_a"},
+		"pluginfd:shales_b": 	{"textures": "textures/blocks/shales_b"},
+		"pluginfd:shales_c": 	{"textures": "textures/blocks/shales_c"},
+		"pluginfd:shales_d": 	{"textures": "textures/blocks/shales_d"},
+		"pluginfd:shales_e": 	{"textures": "textures/blocks/shales_e"},
+		
 		"pluginfd:basalt_a": 	{"textures": "textures/blocks/basalt_a"},
 		"pluginfd:basalt_b": 	{"textures": "textures/blocks/basalt_b"},
 		"pluginfd:basalt_c": 	{"textures": "textures/blocks/basalt_c"},
 		"pluginfd:basalt_d": 	{"textures": "textures/blocks/basalt_c"},
 		"pluginfd:basalt_e": 	{"textures": "textures/blocks/basalt_c"},
-		
-		"pluginfd:tuff_a": 		{"textures": "textures/blocks/tuff_a"},
-		"pluginfd:tuff_b": 		{"textures": "textures/blocks/tuff_b"},
-		"pluginfd:tuff_c": 		{"textures": "textures/blocks/tuff_c"},
-		"pluginfd:tuff_d": 		{"textures": "textures/blocks/tuff_d"},
-		"pluginfd:tuff_e": 		{"textures": "textures/blocks/tuff_e"},
-		
-		"pluginfd:dirt":		{"textures": "textures/blocks/dirt"},
-		"pluginfd:stone":		{"textures": "textures/blocks/stone"},
-
-		"pluginfd:sandstone_a":		{"textures": "textures/blocks/sandstone_a"},
-		"pluginfd:sandstone_b":		{"textures": "textures/blocks/sandstone_b"},
-		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
-		"pluginfd:sandstone_d":		{"textures": "textures/blocks/sandstone_d"},
 		
 		"pluginfd:marble_a":		{"textures": "textures/blocks/marble_a"},
 		"pluginfd:marble_b":		{"textures": "textures/blocks/marble_b"},
@@ -54,6 +54,12 @@
 		"pluginfd:marble_d":		{"textures": "textures/blocks/marble_d"},
 		"pluginfd:marble_e":		{"textures": "textures/blocks/marble_e"},
 		"pluginfd:marble_f":		{"textures": "textures/blocks/marble_f"},
+		
+		"pluginfd:tuff_a": 		{"textures": "textures/blocks/tuff_a"},
+		"pluginfd:tuff_b": 		{"textures": "textures/blocks/tuff_b"},
+		"pluginfd:tuff_c": 		{"textures": "textures/blocks/tuff_c"},
+		"pluginfd:tuff_d": 		{"textures": "textures/blocks/tuff_d"},
+		"pluginfd:tuff_e": 		{"textures": "textures/blocks/tuff_e"},
 		
 		"pluginfd:tree_oak":			{"textures": "textures/blocks/oak_log"},
 		"pluginfd:tree_oak_str":		{"textures": "textures/blocks/oak_log_str"},
