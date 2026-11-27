@@ -67,7 +67,9 @@
 		"pluginfd:tree_oak_hollow_str":	{"textures": "textures/blocks/oak_hollow_str"},
 		
 		"pluginfd:ferrum_n":	{"textures": "textures/blocks/ferrum_n"},
-		"pluginfd:ferrum_i":	{"textures": "textures/blocks/ferrum_i"}
+		"pluginfd:ferrum_i":	{"textures": "textures/blocks/ferrum_i"},
+		"pluginfd:cuprum_n":	{"textures": "textures/blocks/cuprum_n"},
+		"pluginfd:cuprum_i":	{"textures": "textures/blocks/cuprum_i"}
 	
 	}
 }

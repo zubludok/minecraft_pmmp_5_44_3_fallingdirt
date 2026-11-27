@@ -3,50 +3,6 @@
     "resource_pack_name": "FallingDirt",
     "texture_data": {
         "social_button": 					{"textures": ["textures/items/button_social"]},
-        "pluginfd:voxel_grass_cubev": 		{"textures": ["textures/blocks/grass_carried"]},
-        "pluginfd:voxel_sand_white_cubev": 	{"textures": ["textures/blocks/sand"]},
-        "pluginfd:voxel_sand_beige_cubev": 	{"textures": ["textures/blocks/sand"]},
-        "pluginfd:voxel_sand_orange_cubev":	{"textures": ["textures/blocks/sand"]},
-        "pluginfd:voxel_gravel_cubev": 		{"textures": ["textures/blocks/gravel"]},
-		
-		"pluginfd:voxel_granit_a_cubev": 	{"textures": "textures/blocks/granit_a"},
-		"pluginfd:voxel_granit_b_cubev": 	{"textures": "textures/blocks/granit_b"},
-		"pluginfd:voxel_granit_c_cubev": 	{"textures": "textures/blocks/granit_c"},
-		"pluginfd:voxel_granit_d_cubev": 	{"textures": "textures/blocks/granit_d"},
-		"pluginfd:voxel_granit_e_cubev": 	{"textures": "textures/blocks/granit_e"},
-		"pluginfd:voxel_granit_f_cubev": 	{"textures": "textures/blocks/granit_f"},
-		"pluginfd:voxel_granit_g_cubev": 	{"textures": "textures/blocks/granit_g"},
-		"pluginfd:voxel_granit_h_cubev": 	{"textures": "textures/blocks/granit_h"},
-		"pluginfd:voxel_granit_i_cubev": 	{"textures": "textures/blocks/granit_i"},
-		"pluginfd:voxel_granit_j_cubev": 	{"textures": "textures/blocks/granit_j"},
-		"pluginfd:voxel_granit_k_cubev": 	{"textures": "textures/blocks/granit_k"},
-		
-		"pluginfd:voxel_calcite_a_cubev": 	{"textures": "textures/blocks/calcite_a"},
-		"pluginfd:voxel_calcite_b_cubev": 	{"textures": "textures/blocks/calcite_b"},
-		"pluginfd:voxel_calcite_c_cubev": 	{"textures": "textures/blocks/calcite_c"},
-		"pluginfd:voxel_calcite_d_cubev": 	{"textures": "textures/blocks/calcite_d"},
-		"pluginfd:voxel_calcite_e_cubev": 	{"textures": "textures/blocks/calcite_e"},
-		"pluginfd:voxel_calcite_f_cubev": 	{"textures": "textures/blocks/calcite_f"},
-		
-		"pluginfd:voxel_basalt_a_cubev": 	{"textures": "textures/blocks/basalt_a"},
-		"pluginfd:voxel_basalt_b_cubev": 	{"textures": "textures/blocks/basalt_b"},
-		"pluginfd:voxel_basalt_c_cubev": 	{"textures": "textures/blocks/basalt_c"},
-		
-		"pluginfd:voxel_tuff_a_cubev": 		{"textures": "textures/blocks/tuff_a"},
-		"pluginfd:voxel_tuff_b_cubev": 		{"textures": "textures/blocks/tuff_b"},
-		"pluginfd:voxel_tuff_c_cubev": 		{"textures": "textures/blocks/tuff_c"},
-		"pluginfd:voxel_tuff_d_cubev": 		{"textures": "textures/blocks/tuff_d"},
-		"pluginfd:voxel_tuff_e_cubev": 		{"textures": "textures/blocks/tuff_e"},
-		
-        "pluginfd:voxel_dirt_cubev": 		{"textures": ["textures/blocks/dirt"]},
-        "pluginfd:voxel_stone_cubev": 		{"textures": ["textures/blocks/stone"]},
-		
-		"pluginfd:resource_granit_a_ferrum_small_inclusions":		{"textures": "textures/blocks/ferrum_i"},
-		"pluginfd:resource_granit_a_ferrum_medium_inclusions":		{"textures": "textures/blocks/ferrum_i"},
-		"pluginfd:resource_granit_a_ferrum_large_inclusions":		{"textures": "textures/blocks/ferrum_i"},
-		
-		"pluginfd:resource_granit_a_ferrum_small_nugget":			{"textures": "textures/blocks/ferrum_n"},
-		"pluginfd:resource_granit_a_ferrum_medium_nugget":			{"textures": "textures/blocks/ferrum_n"},
-		"pluginfd:resource_granit_a_ferrum_large_nugget":			{"textures": "textures/blocks/ferrum_n"}
+        "pluginfd:voxel_grass_cubev": 		{"textures": ["textures/blocks/grass_carried"]}
     }
 }
