@@ -1,6 +1,10 @@
 tile.pluginfd:trash_block.name	=Мусор
 tile.pluginfd:placeholder_grass.name		=Трава
 tile.pluginfd:placeholder_dirt.name			=Грязь
+tile.pluginfd:placeholder_sand_white.name	=Песок
+tile.pluginfd:placeholder_sand_beige.name	=Песок
+tile.pluginfd:placeholder_sand_orange.name	=Песок
+tile.pluginfd:placeholder_gravel.name		=Гравий
 pluginfd:placeholder_res_stone_ferrum_sn	=Малый амородок железа
 pluginfd:placeholder_res_stone_ferrum_mn	=Самородок железа
 pluginfd:placeholder_res_stone_ferrum_ln	=Большой самородок железа
