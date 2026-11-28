@@ -15,7 +15,31 @@
 		"pluginfd:sandstone_a":		{"textures": "textures/blocks/sandstone_a"},
 		"pluginfd:sandstone_b":		{"textures": "textures/blocks/sandstone_b"},
 		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
+		"pluginfd:sandstone_c":		{"textures": "textures/blocks/sandstone_c"},
 		"pluginfd:sandstone_d":		{"textures": "textures/blocks/sandstone_d"},
+		
+		"pluginfd:andesite_a":		{"textures": "textures/blocks/andesite_a"},
+		"pluginfd:andesite_b":		{"textures": "textures/blocks/andesite_b"},
+		"pluginfd:andesite_c":		{"textures": "textures/blocks/andesite_c"},
+		"pluginfd:andesite_d":		{"textures": "textures/blocks/andesite_d"},
+		
+		"pluginfd:basalt_a":		{"textures": "textures/blocks/basalt_a"},
+		"pluginfd:basalt_b":		{"textures": "textures/blocks/basalt_b"},
+		"pluginfd:basalt_c":		{"textures": "textures/blocks/basalt_c"},
+		"pluginfd:basalt_d":		{"textures": "textures/blocks/basalt_d"},
+		"pluginfd:basalt_e":		{"textures": "textures/blocks/basalt_e"},
+		
+		"pluginfd:calcite_a": 	{"textures": "textures/blocks/calcite_a"},
+		"pluginfd:calcite_b": 	{"textures": "textures/blocks/calcite_b"},
+		"pluginfd:calcite_c": 	{"textures": "textures/blocks/calcite_c"},
+		"pluginfd:calcite_d": 	{"textures": "textures/blocks/calcite_d"},
+		"pluginfd:calcite_e": 	{"textures": "textures/blocks/calcite_e"},
+		"pluginfd:calcite_f": 	{"textures": "textures/blocks/calcite_f"},
+		
+		"pluginfd:diorite_a": 	{"textures": "textures/blocks/diorite_a"},
+		"pluginfd:diorite_b": 	{"textures": "textures/blocks/diorite_b"},
+		"pluginfd:diorite_c": 	{"textures": "textures/blocks/diorite_c"},
+		"pluginfd:diorite_d": 	{"textures": "textures/blocks/diorite_d"},
 		
 		"pluginfd:granit_a": 	{"textures": "textures/blocks/granit_a"},
 		"pluginfd:granit_b": 	{"textures": "textures/blocks/granit_b"},
@@ -29,24 +53,10 @@
 		"pluginfd:granit_j": 	{"textures": "textures/blocks/granit_j"},
 		"pluginfd:granit_k": 	{"textures": "textures/blocks/granit_k"},
 		
-		"pluginfd:calcite_a": 	{"textures": "textures/blocks/calcite_a"},
-		"pluginfd:calcite_b": 	{"textures": "textures/blocks/calcite_b"},
-		"pluginfd:calcite_c": 	{"textures": "textures/blocks/calcite_c"},
-		"pluginfd:calcite_d": 	{"textures": "textures/blocks/calcite_d"},
-		"pluginfd:calcite_e": 	{"textures": "textures/blocks/calcite_e"},
-		"pluginfd:calcite_f": 	{"textures": "textures/blocks/calcite_f"},
-		
-		"pluginfd:shales_a": 	{"textures": "textures/blocks/shales_a"},
-		"pluginfd:shales_b": 	{"textures": "textures/blocks/shales_b"},
-		"pluginfd:shales_c": 	{"textures": "textures/blocks/shales_c"},
-		"pluginfd:shales_d": 	{"textures": "textures/blocks/shales_d"},
-		"pluginfd:shales_e": 	{"textures": "textures/blocks/shales_e"},
-		
-		"pluginfd:basalt_a": 	{"textures": "textures/blocks/basalt_a"},
-		"pluginfd:basalt_b": 	{"textures": "textures/blocks/basalt_b"},
-		"pluginfd:basalt_c": 	{"textures": "textures/blocks/basalt_c"},
-		"pluginfd:basalt_d": 	{"textures": "textures/blocks/basalt_c"},
-		"pluginfd:basalt_e": 	{"textures": "textures/blocks/basalt_c"},
+		"pluginfd:limestone_a": 	{"textures": "textures/blocks/limestone_a"},
+		"pluginfd:limestone_b": 	{"textures": "textures/blocks/limestone_b"},
+		"pluginfd:limestone_c": 	{"textures": "textures/blocks/limestone_c"},
+		"pluginfd:limestone_d": 	{"textures": "textures/blocks/limestone_d"},
 		
 		"pluginfd:marble_a":		{"textures": "textures/blocks/marble_a"},
 		"pluginfd:marble_b":		{"textures": "textures/blocks/marble_b"},
@@ -54,6 +64,19 @@
 		"pluginfd:marble_d":		{"textures": "textures/blocks/marble_d"},
 		"pluginfd:marble_e":		{"textures": "textures/blocks/marble_e"},
 		"pluginfd:marble_f":		{"textures": "textures/blocks/marble_f"},
+		
+		"pluginfd:quartzites_a":		{"textures": "textures/blocks/quartzites_a"},
+		"pluginfd:quartzites_b":		{"textures": "textures/blocks/quartzites_b"},
+		"pluginfd:quartzites_c":		{"textures": "textures/blocks/quartzites_c"},
+		"pluginfd:quartzites_d":		{"textures": "textures/blocks/quartzites_d"},
+		"pluginfd:quartzites_e":		{"textures": "textures/blocks/quartzites_e"},
+		"pluginfd:quartzites_f":		{"textures": "textures/blocks/quartzites_f"},
+		
+		"pluginfd:shales_a": 	{"textures": "textures/blocks/shales_a"},
+		"pluginfd:shales_b": 	{"textures": "textures/blocks/shales_b"},
+		"pluginfd:shales_c": 	{"textures": "textures/blocks/shales_c"},
+		"pluginfd:shales_d": 	{"textures": "textures/blocks/shales_d"},
+		"pluginfd:shales_e": 	{"textures": "textures/blocks/shales_e"},
 		
 		"pluginfd:tuff_a": 		{"textures": "textures/blocks/tuff_a"},
 		"pluginfd:tuff_b": 		{"textures": "textures/blocks/tuff_b"},
@@ -66,10 +89,10 @@
 		"pluginfd:tree_oak_hollow":		{"textures": "textures/blocks/oak_hollow"},
 		"pluginfd:tree_oak_hollow_str":	{"textures": "textures/blocks/oak_hollow_str"},
 		
-		"pluginfd:ferrum_n":	{"textures": "textures/blocks/ferrum_n"},
-		"pluginfd:ferrum_i":	{"textures": "textures/blocks/ferrum_i"},
-		"pluginfd:cuprum_n":	{"textures": "textures/blocks/cuprum_n"},
-		"pluginfd:cuprum_i":	{"textures": "textures/blocks/cuprum_i"}
+		"pluginfd:res_ferrum_n":	{"textures": "textures/blocks/ferrum_n"},
+		"pluginfd:res_ferrum_i":	{"textures": "textures/blocks/ferrum_i"},
+		"pluginfd:res_cuprum_n":	{"textures": "textures/blocks/cuprum_n"},
+		"pluginfd:res_cuprum_i":	{"textures": "textures/blocks/cuprum_i"}
 	
 	}
 }

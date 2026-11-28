@@ -1,3 +1,10 @@
-tile.pluginfd:trash_block.name=Мусор
-tile.pluginfd:stairmud.name=Спуск
-item.pluginfd:social_button.name=Отношения
+tile.pluginfd:trash_block.name	=Мусор
+tile.pluginfd:placeholder_grass.name		=Трава
+tile.pluginfd:placeholder_dirt.name			=Грязь
+pluginfd:placeholder_res_stone_ferrum_sn	=Малый амородок железа
+pluginfd:placeholder_res_stone_ferrum_mn	=Самородок железа
+pluginfd:placeholder_res_stone_ferrum_ln	=Большой самородок железа
+pluginfd:placeholder_res_stone_ferrum_si	=Малые вкрапления железа
+pluginfd:placeholder_res_stone_ferrum_mi	=Вкрапления железа
+pluginfd:placeholder_res_stone_ferrum_li	=Большое вкрапление железа
+item.pluginfd:social_button.name	=Отношения
